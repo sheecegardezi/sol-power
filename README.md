@@ -16,6 +16,8 @@ To setup the project you need to first create a local **Libsql** database and ru
 
 `database/local.db`
 
+#### Edit `.env.example` file name
+
 #### Run scripts:
 
 ```ts
