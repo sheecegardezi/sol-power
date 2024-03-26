@@ -54,7 +54,7 @@
 		"@lucia-auth/adapter-drizzle": "^1.0.5",
 		"a": "^3.0.1",
 		"arctic": "^1.2.1",
-		"bits-ui": "^0.20.0",
+		"bits-ui": "^0.20.1",
 		"clsx": "^2.1.0",
 		"dotenv": "^16.4.5",
 		"drizzle-orm": "^0.30.4",

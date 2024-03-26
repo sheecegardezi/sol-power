@@ -7,6 +7,7 @@
 	import * as Avatar from '$lib/components/ui/avatar';
 	import Exit from 'svelte-radix/Exit.svelte';
 	import ModeToggle from '../ModeToggle/ModeToggle.svelte';
+	import { Separator } from '$lib/components/ui/separator';
 	//types
 	import type { User } from 'lucia';
 	import type { MenuItem } from './types';
@@ -41,7 +42,8 @@
 	<!-- user & signout section -->
 	<div class="flex w-full flex-col gap-y-2">
 		<ModeToggle />
-		<br />
+		<Separator class="my-3" />
+
 		<div class="flex items-center gap-x-2">
 			<Avatar.Root class="border-2">
 				<Avatar.Image src={user.avatarUrl} alt="profile" />
