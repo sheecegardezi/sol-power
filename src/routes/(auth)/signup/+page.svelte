@@ -4,6 +4,6 @@
 	export let data: PageData;
 </script>
 
-<div class="flex h-screen w-screen items-center justify-center bg-background">
+<div class="flex h-screen items-center justify-center">
 	<SignupForm data={data.form} showBadge />
 </div>

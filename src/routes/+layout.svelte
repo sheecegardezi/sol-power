@@ -18,11 +18,11 @@
 
 <ModeWatcher />
 <Toaster richColors />
-<div class="w-full xl:container">
+<div class="w-full xl:container xl:mx-auto">
 	{#if data.user && showSidebar}
 		<Sidebar user={data.user} />
 	{/if}
-	<div class="p-4 sm:ml-[72px] md:ml-48 lg:ml-60 lg:p-8 xl:p-10">
+	<div class=" {showSidebar && 'p-4 sm:ml-[72px] md:ml-48 lg:ml-60 lg:p-8 xl:p-10'}">
 		<slot />
 	</div>
 </div>
