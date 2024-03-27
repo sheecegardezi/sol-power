@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.pcss';
+	import '@fontsource-variable/mulish';
 	// components
 	import { Toaster } from '$lib/components/ui/sonner';
 	import { ModeWatcher } from 'mode-watcher';
@@ -22,7 +23,10 @@
 	{#if data.user && showSidebar}
 		<Sidebar user={data.user} />
 	{/if}
-	<div class=" {showSidebar && 'p-4 sm:ml-[72px] md:ml-48 lg:ml-60 lg:p-8 xl:p-10'}">
+	<div
+		class="flex flex-col gap-y-6 lg:gap-y-10 {showSidebar &&
+			'p-4 sm:ml-[72px] md:ml-48 lg:ml-60 lg:p-8 xl:p-10'}"
+	>
 		<slot />
 	</div>
 </div>

@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@fontsource-variable/mulish':
+    specifier: ^5.0.18
+    version: 5.0.18
   '@libsql/client':
     specifier: ^0.5.6
     version: 0.5.6
@@ -864,6 +867,10 @@ packages:
 
   /@floating-ui/utils@0.2.1:
     resolution: {integrity: sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==}
+    dev: false
+
+  /@fontsource-variable/mulish@5.0.18:
+    resolution: {integrity: sha512-1dBxFBTS2gOEtLqyMqy2zco4Gs7GyDs39cVOkIqp5ds8xJCfeB2HxlsabwMap9/8EfW66g51c5gCc6N+3rTKtg==}
     dev: false
 
   /@gcornut/valibot-json-schema@0.0.26(@types/json-schema@7.0.15)(esbuild-runner@2.2.2)(esbuild@0.20.2)(valibot@0.30.0):
