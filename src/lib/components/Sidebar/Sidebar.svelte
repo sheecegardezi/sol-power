@@ -17,7 +17,7 @@
 	export let user: User;
 
 	const menuItems: MenuItem[] = [
-		{ name: 'Overview', route: '/overview', icon: LayoutDashboard },
+		{ name: 'Overview', route: '/', icon: LayoutDashboard },
 		{ name: 'Bills', route: '/bills', icon: CreditCard },
 		{ name: 'Devices', route: '/devices', icon: MonitorSmartphone },
 		{ name: 'Outages', route: '/outages', icon: ZapOff }
