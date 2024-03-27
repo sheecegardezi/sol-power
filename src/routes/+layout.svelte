@@ -6,16 +6,26 @@
 	import Sidebar from '$lib/components/Sidebar/Sidebar.svelte';
 	// types
 	import type { PageData } from './$types';
+	import { page } from '$app/stores';
 
 	export let data: PageData;
+
+	$: showSidebar =
+		$page.url.pathname !== '/email-verification' &&
+		$page.url.pathname !== '/signup' &&
+		$page.url.pathname !== '/login';
 </script>
 
 <ModeWatcher />
 <Toaster richColors />
-{#if data.user}
-	<Sidebar user={data.user} />
-{/if}
-<slot />
+<div class="w-full xl:container">
+	{#if data.user && showSidebar}
+		<Sidebar user={data.user} />
+	{/if}
+	<div class="p-4 sm:ml-[72px] md:ml-48 lg:ml-60 lg:p-8 xl:p-10">
+		<slot />
+	</div>
+</div>
 
 <style lang="postcss">
 	:global(body) {
