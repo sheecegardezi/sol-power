@@ -8,18 +8,9 @@
 	import type { User } from 'lucia';
 	// other
 	import { enhance } from '$app/forms';
+	import { getInitials } from '$lib/utils/getInitials';
 
 	export let user: User;
-
-	function getInitials(name: string) {
-		return (
-			(name?.match(/(\b\S)?/g) ?? []) // Use optional chaining and nullish coalescing
-				.join('')
-				.match(/(^\S|\S$)?/g) ??
-			[] // Use optional chaining and nullish coalescing
-				.join('')
-		);
-	}
 
 	$: userInitials = getInitials(user.name);
 </script>
