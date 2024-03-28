@@ -12,7 +12,7 @@
 <a
 	href={item.route}
 	class="flex h-10 w-full min-w-10 items-center justify-center gap-x-1.5 rounded-md transition-all lg:justify-normal lg:px-3 xl:gap-x-3 {isRoute
-		? 'bg-primary text-primary-foreground'
+		? 'bg-secondary text-secondary-foreground'
 		: 'hover:bg-muted'}"
 	class:pointer-events-none={isRoute}
 >

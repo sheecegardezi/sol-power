@@ -20,7 +20,7 @@
 			<p class="text-5xl font-semibold sm:text-6xl md:text-4xl xl:text-5xl">$342.00</p>
 			<div class="flex items-end justify-between">
 				<p>View details</p>
-				<Button class="class flex gap-x-1 rounded-full ">
+				<Button class="class flex gap-x-1 rounded-full bg-primary text-primary-foreground">
 					<span>Pay</span>
 					<MoveRight strokeWidth={1.5} />
 				</Button>
