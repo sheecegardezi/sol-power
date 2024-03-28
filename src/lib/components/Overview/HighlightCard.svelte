@@ -5,7 +5,9 @@
 </script>
 
 <div
-	class="flex h-56 w-full flex-col gap-y-8 rounded-3xl p-7 sm:p-6 md:p-4 {$$props.class}"
+	class="flex h-56 w-full flex-col rounded-3xl p-7 sm:p-6 md:p-4 {title === 'Meter Information'
+		? 'gap-y-8'
+		: 'gap-y-10 md:gap-y-16'} {$$props.class}"
 	class:bg-accent={title !== 'Balance Due'}
 	class:text-accent-foreground={title === 'Meter Information'}
 	class:border={title !== 'Meter Information'}
