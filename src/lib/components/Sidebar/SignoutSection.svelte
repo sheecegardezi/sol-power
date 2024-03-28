@@ -24,7 +24,7 @@
 			<Avatar.Image src={user.avatarUrl} alt="profile" />
 			<Avatar.Fallback>{userInitials}</Avatar.Fallback>
 		</Avatar.Root>
-		<div class="hidden md:block">
+		<div class="hidden lg:block">
 			<p class="mb-0 font-medium leading-tight">{user.name}</p>
 			<p class="text-sm text-muted-foreground">00001</p>
 		</div>
@@ -36,7 +36,7 @@
 			class="flex w-full select-none items-center gap-x-2 rounded-md px-2 py-3 text-base text-destructive outline-none transition-colors hover:bg-muted data-[disabled]:pointer-events-none data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground data-[disabled]:opacity-50"
 		>
 			<Exit size={20} />
-			<span class="hidden md:block">Logout</span>
+			<span class="hidden lg:block">Logout</span>
 		</button>
 	</form>
 </div>

@@ -21,7 +21,7 @@
 </script>
 
 <aside
-	class="fixed hidden h-screen w-fit flex-col items-center justify-between border-r border-border bg-background p-4 sm:flex md:w-48 md:items-start lg:w-60"
+	class="fixed hidden h-full w-fit flex-col items-center justify-between border-r border-border bg-background p-4 sm:flex lg:w-48 lg:items-start xl:w-60"
 >
 	<div class="w-full space-y-16">
 		<a href="/overview">

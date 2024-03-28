@@ -5,6 +5,7 @@
 	import { Toaster } from '$lib/components/ui/sonner';
 	import { ModeWatcher } from 'mode-watcher';
 	import Sidebar from '$lib/components/Sidebar/Sidebar.svelte';
+	import ShowBreakpoint from '$lib/components/ShowBreakpoint.svelte';
 	// types
 	import type { PageData } from './$types';
 	import { page } from '$app/stores';
@@ -19,17 +20,20 @@
 
 <ModeWatcher />
 <Toaster richColors />
-<div class="w-full xl:container xl:mx-auto">
+<div class="h-full w-full xl:container xl:mx-auto">
 	{#if data.user && showSidebar}
 		<Sidebar user={data.user} />
 	{/if}
 	<div
-		class="flex flex-col gap-y-6 lg:gap-y-10 {showSidebar &&
-			'p-4 sm:ml-[72px] md:ml-48 lg:ml-60 lg:p-8 xl:p-10'}"
+		class="flex flex-col gap-y-6 xl:gap-y-10 {showSidebar &&
+			'p-4 sm:ml-[74px] md:ml-20 md:p-5 lg:ml-48 lg:p-6 xl:ml-60 xl:p-8'}"
 	>
 		<slot />
 	</div>
 </div>
+
+<!-- SHOW TAILWIND BREAKPOINTS -->
+<ShowBreakpoint />
 
 <style lang="postcss">
 	:global(body) {
