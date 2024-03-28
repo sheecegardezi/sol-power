@@ -12,9 +12,9 @@ import type { Actions, PageServerLoad } from './$types';
 import { signupSchema } from '$lib/validation/authSchema';
 import { checkIfUserExists, createUser } from '$lib/server/dbUtils';
 import { generateVerificationCode, sendVerificationCode } from '$lib/server/luciaAuthUtils';
-import { eq } from 'drizzle-orm';
-import { db } from '$lib/server/db';
-import { userTable } from '$lib/server/schema';
+// import { eq } from 'drizzle-orm';
+// import { db } from '$lib/server/db';
+// import { userTable } from '$lib/server/schema';
 
 // If signed in user visits Signup page, redirect them to home
 export const load: PageServerLoad = async (event) => {
@@ -53,37 +53,37 @@ export const actions: Actions = {
 			const existingUser = await checkIfUserExists(userEmail);
 
 			// If user exists and uses email auth, return error
-			if (existingUser && existingUser.authMethods.includes('email')) {
+			if (existingUser) {
 				return message(form, {
 					status: 'error',
-					text: 'This email is already in use. Please use a different email address.'
+					text: 'This email is already associated with an account. Please review your sign-in options or try a different method.'
 				});
 			}
 
 			// Generate or retrieve user ID
-			const userId = existingUser?.id ?? generateId(15);
+			const userId = generateId(15);
 
 			// Hash the user's password
 			const hashedPassword = await new Argon2id().hash(form.data.password);
 
 			// Create or update user based on existence
-			if (!existingUser) {
-				await createUser({
-					id: userId,
-					name: form.data.name,
-					email: userEmail,
-					isEmailVerified: false,
-					password: hashedPassword,
-					authMethods: ['email']
-				});
-			} else {
-				await db
-					.update(userTable)
-					.set({
-						password: hashedPassword
-					})
-					.where(eq(userTable.email, userEmail));
-			}
+			// if (!existingUser) {
+			await createUser({
+				id: userId,
+				name: form.data.name,
+				email: userEmail,
+				isEmailVerified: false,
+				password: hashedPassword,
+				authMethods: ['email']
+			});
+			// } else {
+			// 	await db
+			// 		.update(userTable)
+			// 		.set({
+			// 			password: hashedPassword
+			// 		})
+			// 		.where(eq(userTable.email, userEmail));
+			// }
 
 			// Generate email verification code
 			const emailVerificationCode = await generateVerificationCode(userId, userEmail);
