@@ -7,6 +7,7 @@
 	import { MoveRight } from 'lucide-svelte';
 	import Triangle from '$lib/components/Overview/Triangle.svelte';
 	import MeterInfoRow from '$lib/components/Overview/MeterInfoRow.svelte';
+	import LineChart from '$lib/components/Chart/LineChart.svelte';
 
 	export let data: PageData;
 	const { loginForm, signupForm, user } = data;
@@ -14,7 +15,7 @@
 
 {#if user}
 	<Header title="Overview" />
-	<Section title="November 2023 Billing Period">
+	<Section title="November 2023 Billing Period" grid>
 		<!-- ---------------->
 		<HighlightCard title="Balance Due">
 			<p class="text-5xl font-semibold sm:text-6xl md:text-4xl xl:text-5xl">$342.00</p>
@@ -49,5 +50,9 @@
 			<MeterInfoRow label="account" value="0000-0000" />
 			<MeterInfoRow label="category" value="Domestic" />
 		</HighlightCard>
+	</Section>
+
+	<Section title="Usage graph">
+		<LineChart />
 	</Section>
 {/if}
