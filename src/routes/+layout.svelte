@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '../app.pcss';
 	import '@fontsource-variable/mulish';
+	import { dev } from '$app/environment';
 	// components
 	import { Toaster } from '$lib/components/ui/sonner';
 	import { ModeWatcher } from 'mode-watcher';
@@ -32,8 +33,10 @@
 	</div>
 </div>
 
-<!-- SHOW TAILWIND BREAKPOINTS -->
-<ShowBreakpoint />
+{#if dev}
+	<!-- Show tailwind breakpoints -->
+	<ShowBreakpoint />
+{/if}
 
 <style lang="postcss">
 	:global(body) {
