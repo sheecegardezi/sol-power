@@ -1,0 +1,2729 @@
+[
+	{
+		"date": "01/25/2024",
+		"amountDue": 35198,
+		"amountPaid": 29625,
+		"unitsUsed": 224.1,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 57.03
+	},
+	{
+		"date": "12/27/2023",
+		"amountDue": 31072,
+		"amountPaid": 26083,
+		"unitsUsed": 191.3,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 62.4
+	},
+	{
+		"date": "11/28/2023",
+		"amountDue": 31356,
+		"amountPaid": 27076,
+		"unitsUsed": 204.2,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 53.55
+	},
+	{
+		"date": "10/29/2023",
+		"amountDue": 37927,
+		"amountPaid": 23666,
+		"unitsUsed": 223.4,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 69.75
+	},
+	{
+		"date": "09/30/2023",
+		"amountDue": 28667,
+		"amountPaid": 27134,
+		"unitsUsed": 189.9,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 50.92
+	},
+	{
+		"date": "08/31/2023",
+		"amountDue": 33149,
+		"amountPaid": 24993,
+		"unitsUsed": 213.6,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 55.22
+	},
+	{
+		"date": "08/03/2023",
+		"amountDue": 33167,
+		"amountPaid": 21459,
+		"unitsUsed": 214.8,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 54.41
+	},
+	{
+		"date": "07/06/2023",
+		"amountDue": 29898,
+		"amountPaid": 26326,
+		"unitsUsed": 180.2,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 65.91
+	},
+	{
+		"date": "06/07/2023",
+		"amountDue": 30610,
+		"amountPaid": 23065,
+		"unitsUsed": 199.9,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 53.17
+	},
+	{
+		"date": "05/08/2023",
+		"amountDue": 36271,
+		"amountPaid": 33709,
+		"unitsUsed": 232.5,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 55.99
+	},
+	{
+		"date": "04/09/2023",
+		"amountDue": 34169,
+		"amountPaid": 24151,
+		"unitsUsed": 204.5,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 67.06
+	},
+	{
+		"date": "03/10/2023",
+		"amountDue": 34846,
+		"amountPaid": 23053,
+		"unitsUsed": 213.9,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 62.91
+	},
+	{
+		"date": "02/10/2023",
+		"amountDue": 33897,
+		"amountPaid": 32196,
+		"unitsUsed": 209.2,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 62.07
+	},
+	{
+		"date": "01/13/2023",
+		"amountDue": 34501,
+		"amountPaid": 23720,
+		"unitsUsed": 224.8,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 53.48
+	},
+	{
+		"date": "12/15/2022",
+		"amountDue": 37073,
+		"amountPaid": 32824,
+		"unitsUsed": 221.1,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 67.66
+	},
+	{
+		"date": "11/15/2022",
+		"amountDue": 36498,
+		"amountPaid": 31420,
+		"unitsUsed": 221.2,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 64.98
+	},
+	{
+		"date": "10/16/2022",
+		"amountDue": 37157,
+		"amountPaid": 23830,
+		"unitsUsed": 235,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 58.12
+	},
+	{
+		"date": "09/17/2022",
+		"amountDue": 34633,
+		"amountPaid": 22403,
+		"unitsUsed": 213.8,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 61.96
+	},
+	{
+		"date": "08/19/2022",
+		"amountDue": 30361,
+		"amountPaid": 23387,
+		"unitsUsed": 182,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 66.82
+	},
+	{
+		"date": "07/22/2022",
+		"amountDue": 28479,
+		"amountPaid": 26818,
+		"unitsUsed": 189.5,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 50.27
+	},
+	{
+		"date": "06/23/2022",
+		"amountDue": 30157,
+		"amountPaid": 28124,
+		"unitsUsed": 196.1,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 53.8
+	},
+	{
+		"date": "05/25/2022",
+		"amountDue": 35168,
+		"amountPaid": 23627,
+		"unitsUsed": 215.5,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 63.17
+	},
+	{
+		"date": "04/26/2022",
+		"amountDue": 33900,
+		"amountPaid": 28815,
+		"unitsUsed": 207,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 63.8
+	},
+	{
+		"date": "03/27/2022",
+		"amountDue": 32728,
+		"amountPaid": 24699,
+		"unitsUsed": 218.1,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 50.04
+	},
+	{
+		"date": "02/27/2022",
+		"amountDue": 37492,
+		"amountPaid": 34569,
+		"unitsUsed": 235,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 59.54
+	},
+	{
+		"date": "01/30/2022",
+		"amountDue": 34638,
+		"amountPaid": 32363,
+		"unitsUsed": 212.1,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 63.3
+	},
+	{
+		"date": "12/31/2021",
+		"amountDue": 37504,
+		"amountPaid": 26487,
+		"unitsUsed": 233.6,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 60.54
+	},
+	{
+		"date": "12/01/2021",
+		"amountDue": 33298,
+		"amountPaid": 26502,
+		"unitsUsed": 215.2,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 54.71
+	},
+	{
+		"date": "11/02/2021",
+		"amountDue": 37510,
+		"amountPaid": 34633,
+		"unitsUsed": 221.2,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 69.54
+	},
+	{
+		"date": "10/05/2021",
+		"amountDue": 34313,
+		"amountPaid": 26812,
+		"unitsUsed": 217.1,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 58.03
+	},
+	{
+		"date": "09/07/2021",
+		"amountDue": 32246,
+		"amountPaid": 26291,
+		"unitsUsed": 194.5,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 65.83
+	},
+	{
+		"date": "08/09/2021",
+		"amountDue": 35429,
+		"amountPaid": 29810,
+		"unitsUsed": 231.8,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 52.86
+	},
+	{
+		"date": "07/10/2021",
+		"amountDue": 38357,
+		"amountPaid": 35520,
+		"unitsUsed": 228.7,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 67.71
+	},
+	{
+		"date": "06/10/2021",
+		"amountDue": 30349,
+		"amountPaid": 23782,
+		"unitsUsed": 201.4,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 50.67
+	},
+	{
+		"date": "05/12/2021",
+		"amountDue": 36445,
+		"amountPaid": 24234,
+		"unitsUsed": 215,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 69.53
+	},
+	{
+		"date": "04/14/2021",
+		"amountDue": 33743,
+		"amountPaid": 21715,
+		"unitsUsed": 209.6,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 61.02
+	},
+	{
+		"date": "03/16/2021",
+		"amountDue": 34562,
+		"amountPaid": 23657,
+		"unitsUsed": 217.1,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 59.24
+	},
+	{
+		"date": "02/16/2021",
+		"amountDue": 29689,
+		"amountPaid": 18037,
+		"unitsUsed": 180.3,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 64.68
+	},
+	{
+		"date": "01/17/2021",
+		"amountDue": 33591,
+		"amountPaid": 26373,
+		"unitsUsed": 205,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 63.87
+	},
+	{
+		"date": "12/18/2020",
+		"amountDue": 36723,
+		"amountPaid": 36333,
+		"unitsUsed": 238.5,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 53.94
+	},
+	{
+		"date": "11/18/2020",
+		"amountDue": 29756,
+		"amountPaid": 21224,
+		"unitsUsed": 185.1,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 60.79
+	},
+	{
+		"date": "10/20/2020",
+		"amountDue": 32794,
+		"amountPaid": 24309,
+		"unitsUsed": 209.1,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 56.85
+	},
+	{
+		"date": "09/22/2020",
+		"amountDue": 28698,
+		"amountPaid": 18927,
+		"unitsUsed": 186.6,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 53.78
+	},
+	{
+		"date": "08/25/2020",
+		"amountDue": 29801,
+		"amountPaid": 29553,
+		"unitsUsed": 189.2,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 57.53
+	},
+	{
+		"date": "07/27/2020",
+		"amountDue": 36771,
+		"amountPaid": 24171,
+		"unitsUsed": 223.1,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 64.82
+	},
+	{
+		"date": "06/27/2020",
+		"amountDue": 37044,
+		"amountPaid": 25649,
+		"unitsUsed": 231.1,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 60.31
+	},
+	{
+		"date": "05/28/2020",
+		"amountDue": 34780,
+		"amountPaid": 22193,
+		"unitsUsed": 226.5,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 53.55
+	},
+	{
+		"date": "04/29/2020",
+		"amountDue": 32168,
+		"amountPaid": 23716,
+		"unitsUsed": 201.1,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 59.96
+	},
+	{
+		"date": "04/01/2020",
+		"amountDue": 32532,
+		"amountPaid": 20765,
+		"unitsUsed": 213.6,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 52.28
+	},
+	{
+		"date": "03/03/2020",
+		"amountDue": 28296,
+		"amountPaid": 24685,
+		"unitsUsed": 186.9,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 51.4
+	},
+	{
+		"date": "02/03/2020",
+		"amountDue": 29804,
+		"amountPaid": 25083,
+		"unitsUsed": 197.4,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 50.96
+	},
+	{
+		"date": "01/04/2020",
+		"amountDue": 32652,
+		"amountPaid": 27467,
+		"unitsUsed": 196,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 66.6
+	},
+	{
+		"date": "12/05/2019",
+		"amountDue": 35900,
+		"amountPaid": 32871,
+		"unitsUsed": 236.3,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 51.95
+	},
+	{
+		"date": "11/05/2019",
+		"amountDue": 29726,
+		"amountPaid": 22957,
+		"unitsUsed": 191.6,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 55.11
+	},
+	{
+		"date": "10/06/2019",
+		"amountDue": 30519,
+		"amountPaid": 26892,
+		"unitsUsed": 180.9,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 68.69
+	},
+	{
+		"date": "09/07/2019",
+		"amountDue": 34417,
+		"amountPaid": 29265,
+		"unitsUsed": 218.2,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 57.76
+	},
+	{
+		"date": "08/10/2019",
+		"amountDue": 35591,
+		"amountPaid": 24728,
+		"unitsUsed": 210,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 69.52
+	},
+	{
+		"date": "07/12/2019",
+		"amountDue": 28449,
+		"amountPaid": 18591,
+		"unitsUsed": 189.3,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 50.25
+	},
+	{
+		"date": "06/12/2019",
+		"amountDue": 32877,
+		"amountPaid": 23425,
+		"unitsUsed": 207.8,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 58.18
+	},
+	{
+		"date": "05/15/2019",
+		"amountDue": 34882,
+		"amountPaid": 34329,
+		"unitsUsed": 206.7,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 68.8
+	},
+	{
+		"date": "04/15/2019",
+		"amountDue": 32377,
+		"amountPaid": 28630,
+		"unitsUsed": 201.2,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 60.92
+	},
+	{
+		"date": "03/16/2019",
+		"amountDue": 35444,
+		"amountPaid": 30591,
+		"unitsUsed": 227.1,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 56.08
+	},
+	{
+		"date": "02/15/2019",
+		"amountDue": 30344,
+		"amountPaid": 27633,
+		"unitsUsed": 198.3,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 53.03
+	},
+	{
+		"date": "01/17/2019",
+		"amountDue": 33314,
+		"amountPaid": 22276,
+		"unitsUsed": 213.9,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 55.78
+	},
+	{
+		"date": "12/18/2018",
+		"amountDue": 29874,
+		"amountPaid": 18468,
+		"unitsUsed": 184.7,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 61.72
+	},
+	{
+		"date": "11/19/2018",
+		"amountDue": 34803,
+		"amountPaid": 23959,
+		"unitsUsed": 205.6,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 69.24
+	},
+	{
+		"date": "10/20/2018",
+		"amountDue": 30499,
+		"amountPaid": 20034,
+		"unitsUsed": 181.7,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 67.89
+	},
+	{
+		"date": "09/20/2018",
+		"amountDue": 39445,
+		"amountPaid": 24133,
+		"unitsUsed": 235.8,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 67.29
+	},
+	{
+		"date": "08/23/2018",
+		"amountDue": 31829,
+		"amountPaid": 25910,
+		"unitsUsed": 203.7,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 56.28
+	},
+	{
+		"date": "07/25/2018",
+		"amountDue": 33357,
+		"amountPaid": 28159,
+		"unitsUsed": 218.1,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 52.94
+	},
+	{
+		"date": "06/25/2018",
+		"amountDue": 36075,
+		"amountPaid": 29944,
+		"unitsUsed": 213.4,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 69.05
+	},
+	{
+		"date": "05/27/2018",
+		"amountDue": 38139,
+		"amountPaid": 25008,
+		"unitsUsed": 228.6,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 66.84
+	},
+	{
+		"date": "04/28/2018",
+		"amountDue": 32781,
+		"amountPaid": 22168,
+		"unitsUsed": 208.2,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 57.47
+	},
+	{
+		"date": "03/30/2018",
+		"amountDue": 30495,
+		"amountPaid": 26004,
+		"unitsUsed": 198.8,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 53.4
+	},
+	{
+		"date": "03/01/2018",
+		"amountDue": 32392,
+		"amountPaid": 24664,
+		"unitsUsed": 195.4,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 65.77
+	},
+	{
+		"date": "01/31/2018",
+		"amountDue": 34561,
+		"amountPaid": 27720,
+		"unitsUsed": 225.4,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 53.31
+	},
+	{
+		"date": "01/03/2018",
+		"amountDue": 35681,
+		"amountPaid": 23982,
+		"unitsUsed": 219.7,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 62.43
+	},
+	{
+		"date": "12/05/2017",
+		"amountDue": 35844,
+		"amountPaid": 23283,
+		"unitsUsed": 227.1,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 57.85
+	},
+	{
+		"date": "11/06/2017",
+		"amountDue": 35557,
+		"amountPaid": 35375,
+		"unitsUsed": 227.6,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 56.25
+	},
+	{
+		"date": "10/09/2017",
+		"amountDue": 37633,
+		"amountPaid": 30975,
+		"unitsUsed": 233.5,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 61.17
+	},
+	{
+		"date": "09/09/2017",
+		"amountDue": 31001,
+		"amountPaid": 28798,
+		"unitsUsed": 204.7,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 51.44
+	},
+	{
+		"date": "08/10/2017",
+		"amountDue": 35115,
+		"amountPaid": 31659,
+		"unitsUsed": 208,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 68.86
+	},
+	{
+		"date": "07/13/2017",
+		"amountDue": 29026,
+		"amountPaid": 24239,
+		"unitsUsed": 185,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 56.89
+	},
+	{
+		"date": "06/14/2017",
+		"amountDue": 33253,
+		"amountPaid": 27062,
+		"unitsUsed": 204.2,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 62.82
+	},
+	{
+		"date": "05/17/2017",
+		"amountDue": 32648,
+		"amountPaid": 26568,
+		"unitsUsed": 209,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 56.17
+	},
+	{
+		"date": "04/18/2017",
+		"amountDue": 35615,
+		"amountPaid": 25251,
+		"unitsUsed": 213.5,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 66.81
+	},
+	{
+		"date": "03/19/2017",
+		"amountDue": 39536,
+		"amountPaid": 30671,
+		"unitsUsed": 235,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 68.24
+	},
+	{
+		"date": "02/17/2017",
+		"amountDue": 33261,
+		"amountPaid": 29244,
+		"unitsUsed": 198.9,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 67.26
+	},
+	{
+		"date": "01/18/2017",
+		"amountDue": 36416,
+		"amountPaid": 35437,
+		"unitsUsed": 217.1,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 67.73
+	},
+	{
+		"date": "12/21/2016",
+		"amountDue": 31486,
+		"amountPaid": 30212,
+		"unitsUsed": 207.6,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 51.65
+	},
+	{
+		"date": "11/21/2016",
+		"amountDue": 34017,
+		"amountPaid": 21413,
+		"unitsUsed": 200.8,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 69.41
+	},
+	{
+		"date": "10/22/2016",
+		"amountDue": 30661,
+		"amountPaid": 28332,
+		"unitsUsed": 187.6,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 63.41
+	},
+	{
+		"date": "09/23/2016",
+		"amountDue": 32189,
+		"amountPaid": 21759,
+		"unitsUsed": 191.7,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 67.91
+	},
+	{
+		"date": "08/25/2016",
+		"amountDue": 28748,
+		"amountPaid": 25712,
+		"unitsUsed": 188.2,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 52.72
+	},
+	{
+		"date": "07/26/2016",
+		"amountDue": 33687,
+		"amountPaid": 22643,
+		"unitsUsed": 213.9,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 57.47
+	},
+	{
+		"date": "06/28/2016",
+		"amountDue": 33540,
+		"amountPaid": 33386,
+		"unitsUsed": 203.2,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 65.06
+	},
+	{
+		"date": "05/31/2016",
+		"amountDue": 28305,
+		"amountPaid": 20701,
+		"unitsUsed": 188.4,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 50.21
+	},
+	{
+		"date": "05/02/2016",
+		"amountDue": 33933,
+		"amountPaid": 33746,
+		"unitsUsed": 208.7,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 62.61
+	},
+	{
+		"date": "04/04/2016",
+		"amountDue": 33277,
+		"amountPaid": 23408,
+		"unitsUsed": 206,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 61.57
+	},
+	{
+		"date": "03/06/2016",
+		"amountDue": 36640,
+		"amountPaid": 30011,
+		"unitsUsed": 237.5,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 54.28
+	},
+	{
+		"date": "02/06/2016",
+		"amountDue": 38338,
+		"amountPaid": 25486,
+		"unitsUsed": 225.9,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 69.69
+	},
+	{
+		"date": "01/08/2016",
+		"amountDue": 30238,
+		"amountPaid": 18597,
+		"unitsUsed": 181,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 67.08
+	},
+	{
+		"date": "12/11/2015",
+		"amountDue": 37186,
+		"amountPaid": 28299,
+		"unitsUsed": 238,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 56.25
+	},
+	{
+		"date": "11/12/2015",
+		"amountDue": 27698,
+		"amountPaid": 23383,
+		"unitsUsed": 182.9,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 51.43
+	},
+	{
+		"date": "10/13/2015",
+		"amountDue": 33403,
+		"amountPaid": 31988,
+		"unitsUsed": 216.3,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 54.45
+	},
+	{
+		"date": "09/13/2015",
+		"amountDue": 33680,
+		"amountPaid": 20280,
+		"unitsUsed": 210.9,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 59.72
+	},
+	{
+		"date": "08/14/2015",
+		"amountDue": 35665,
+		"amountPaid": 30387,
+		"unitsUsed": 231.6,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 54.01
+	},
+	{
+		"date": "07/15/2015",
+		"amountDue": 33876,
+		"amountPaid": 20418,
+		"unitsUsed": 206.2,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 64.3
+	},
+	{
+		"date": "06/16/2015",
+		"amountDue": 33316,
+		"amountPaid": 32333,
+		"unitsUsed": 206.7,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 61.14
+	},
+	{
+		"date": "05/18/2015",
+		"amountDue": 35586,
+		"amountPaid": 21654,
+		"unitsUsed": 225.9,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 57.51
+	},
+	{
+		"date": "04/20/2015",
+		"amountDue": 31385,
+		"amountPaid": 29514,
+		"unitsUsed": 209,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 50.17
+	},
+	{
+		"date": "03/21/2015",
+		"amountDue": 36939,
+		"amountPaid": 27781,
+		"unitsUsed": 228.7,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 61.52
+	},
+	{
+		"date": "02/19/2015",
+		"amountDue": 30241,
+		"amountPaid": 22791,
+		"unitsUsed": 192.9,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 56.74
+	},
+	{
+		"date": "01/22/2015",
+		"amountDue": 34401,
+		"amountPaid": 27033,
+		"unitsUsed": 202.8,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 69.66
+	},
+	{
+		"date": "12/25/2014",
+		"amountDue": 32240,
+		"amountPaid": 19588,
+		"unitsUsed": 213.9,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 50.74
+	},
+	{
+		"date": "11/26/2014",
+		"amountDue": 35743,
+		"amountPaid": 32008,
+		"unitsUsed": 217.3,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 64.5
+	},
+	{
+		"date": "10/28/2014",
+		"amountDue": 32689,
+		"amountPaid": 25849,
+		"unitsUsed": 217.5,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 50.33
+	},
+	{
+		"date": "09/30/2014",
+		"amountDue": 27354,
+		"amountPaid": 19241,
+		"unitsUsed": 180.8,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 51.33
+	},
+	{
+		"date": "09/02/2014",
+		"amountDue": 33423,
+		"amountPaid": 22067,
+		"unitsUsed": 199.7,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 67.37
+	},
+	{
+		"date": "08/04/2014",
+		"amountDue": 31348,
+		"amountPaid": 23468,
+		"unitsUsed": 190.8,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 64.29
+	},
+	{
+		"date": "07/05/2014",
+		"amountDue": 36337,
+		"amountPaid": 31913,
+		"unitsUsed": 225.1,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 61.39
+	},
+	{
+		"date": "06/05/2014",
+		"amountDue": 37529,
+		"amountPaid": 22729,
+		"unitsUsed": 225.8,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 66.19
+	},
+	{
+		"date": "05/08/2014",
+		"amountDue": 35088,
+		"amountPaid": 23089,
+		"unitsUsed": 216.2,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 62.31
+	},
+	{
+		"date": "04/08/2014",
+		"amountDue": 36534,
+		"amountPaid": 28607,
+		"unitsUsed": 237.8,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 53.66
+	},
+	{
+		"date": "03/11/2014",
+		"amountDue": 32647,
+		"amountPaid": 28695,
+		"unitsUsed": 202.1,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 61.51
+	},
+	{
+		"date": "02/09/2014",
+		"amountDue": 35243,
+		"amountPaid": 31728,
+		"unitsUsed": 217.2,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 62.23
+	},
+	{
+		"date": "01/11/2014",
+		"amountDue": 30129,
+		"amountPaid": 23833,
+		"unitsUsed": 188.7,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 59.7
+	},
+	{
+		"date": "12/14/2013",
+		"amountDue": 36581,
+		"amountPaid": 29337,
+		"unitsUsed": 221,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 65.49
+	},
+	{
+		"date": "11/15/2013",
+		"amountDue": 33772,
+		"amountPaid": 24409,
+		"unitsUsed": 205,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 64.73
+	},
+	{
+		"date": "10/18/2013",
+		"amountDue": 31106,
+		"amountPaid": 22345,
+		"unitsUsed": 186.4,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 66.85
+	},
+	{
+		"date": "09/19/2013",
+		"amountDue": 30218,
+		"amountPaid": 22272,
+		"unitsUsed": 195.6,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 54.5
+	},
+	{
+		"date": "08/21/2013",
+		"amountDue": 37685,
+		"amountPaid": 32430,
+		"unitsUsed": 233.5,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 61.39
+	},
+	{
+		"date": "07/24/2013",
+		"amountDue": 36660,
+		"amountPaid": 31881,
+		"unitsUsed": 216.1,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 69.62
+	},
+	{
+		"date": "06/24/2013",
+		"amountDue": 38185,
+		"amountPaid": 23634,
+		"unitsUsed": 228.6,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 67.06
+	},
+	{
+		"date": "05/25/2013",
+		"amountDue": 31681,
+		"amountPaid": 29053,
+		"unitsUsed": 191,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 65.86
+	},
+	{
+		"date": "04/25/2013",
+		"amountDue": 33996,
+		"amountPaid": 26377,
+		"unitsUsed": 223.9,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 51.85
+	},
+	{
+		"date": "03/27/2013",
+		"amountDue": 35707,
+		"amountPaid": 22304,
+		"unitsUsed": 217.7,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 64.01
+	},
+	{
+		"date": "02/25/2013",
+		"amountDue": 34512,
+		"amountPaid": 28744,
+		"unitsUsed": 208,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 65.9
+	},
+	{
+		"date": "01/26/2013",
+		"amountDue": 32591,
+		"amountPaid": 25267,
+		"unitsUsed": 191.9,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 69.82
+	},
+	{
+		"date": "12/28/2012",
+		"amountDue": 30269,
+		"amountPaid": 21999,
+		"unitsUsed": 186,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 62.73
+	},
+	{
+		"date": "11/29/2012",
+		"amountDue": 31474,
+		"amountPaid": 30074,
+		"unitsUsed": 189.8,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 65.83
+	},
+	{
+		"date": "10/30/2012",
+		"amountDue": 32708,
+		"amountPaid": 21195,
+		"unitsUsed": 205.5,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 59.16
+	},
+	{
+		"date": "09/30/2012",
+		"amountDue": 33121,
+		"amountPaid": 28916,
+		"unitsUsed": 218,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 51.94
+	},
+	{
+		"date": "08/31/2012",
+		"amountDue": 30826,
+		"amountPaid": 25229,
+		"unitsUsed": 183.9,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 67.65
+	},
+	{
+		"date": "08/02/2012",
+		"amountDue": 34707,
+		"amountPaid": 27434,
+		"unitsUsed": 209.3,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 65.85
+	},
+	{
+		"date": "07/04/2012",
+		"amountDue": 28282,
+		"amountPaid": 17393,
+		"unitsUsed": 188,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 50.41
+	},
+	{
+		"date": "06/05/2012",
+		"amountDue": 31008,
+		"amountPaid": 23929,
+		"unitsUsed": 189.3,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 63.76
+	},
+	{
+		"date": "05/07/2012",
+		"amountDue": 35246,
+		"amountPaid": 21920,
+		"unitsUsed": 234.7,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 50.2
+	},
+	{
+		"date": "04/08/2012",
+		"amountDue": 36195,
+		"amountPaid": 33996,
+		"unitsUsed": 237.8,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 52.18
+	},
+	{
+		"date": "03/11/2012",
+		"amountDue": 30531,
+		"amountPaid": 20521,
+		"unitsUsed": 197.4,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 54.7
+	},
+	{
+		"date": "02/12/2012",
+		"amountDue": 33216,
+		"amountPaid": 29712,
+		"unitsUsed": 198.9,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 67.03
+	},
+	{
+		"date": "01/13/2012",
+		"amountDue": 33016,
+		"amountPaid": 32540,
+		"unitsUsed": 212.1,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 55.7
+	},
+	{
+		"date": "12/14/2011",
+		"amountDue": 32541,
+		"amountPaid": 30934,
+		"unitsUsed": 195.7,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 66.31
+	},
+	{
+		"date": "11/15/2011",
+		"amountDue": 34645,
+		"amountPaid": 33352,
+		"unitsUsed": 224.2,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 54.55
+	},
+	{
+		"date": "10/18/2011",
+		"amountDue": 38002,
+		"amountPaid": 30642,
+		"unitsUsed": 225.9,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 68.26
+	},
+	{
+		"date": "09/19/2011",
+		"amountDue": 27781,
+		"amountPaid": 21440,
+		"unitsUsed": 181.1,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 53.38
+	},
+	{
+		"date": "08/22/2011",
+		"amountDue": 37723,
+		"amountPaid": 32858,
+		"unitsUsed": 234.6,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 60.79
+	},
+	{
+		"date": "07/23/2011",
+		"amountDue": 35314,
+		"amountPaid": 26385,
+		"unitsUsed": 207.7,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 69.99
+	},
+	{
+		"date": "06/24/2011",
+		"amountDue": 38292,
+		"amountPaid": 34990,
+		"unitsUsed": 231.1,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 65.73
+	},
+	{
+		"date": "05/27/2011",
+		"amountDue": 28558,
+		"amountPaid": 20408,
+		"unitsUsed": 187.6,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 52.21
+	},
+	{
+		"date": "04/29/2011",
+		"amountDue": 30345,
+		"amountPaid": 25473,
+		"unitsUsed": 189.8,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 59.9
+	},
+	{
+		"date": "03/30/2011",
+		"amountDue": 34584,
+		"amountPaid": 21144,
+		"unitsUsed": 227.3,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 52.18
+	},
+	{
+		"date": "02/28/2011",
+		"amountDue": 35953,
+		"amountPaid": 24592,
+		"unitsUsed": 222.3,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 61.75
+	},
+	{
+		"date": "01/31/2011",
+		"amountDue": 32739,
+		"amountPaid": 28783,
+		"unitsUsed": 205.4,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 59.36
+	},
+	{
+		"date": "01/02/2011",
+		"amountDue": 30803,
+		"amountPaid": 24148,
+		"unitsUsed": 184.8,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 66.69
+	},
+	{
+		"date": "12/05/2010",
+		"amountDue": 31812,
+		"amountPaid": 20986,
+		"unitsUsed": 194.8,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 63.34
+	},
+	{
+		"date": "11/05/2010",
+		"amountDue": 28810,
+		"amountPaid": 26744,
+		"unitsUsed": 182.7,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 57.65
+	},
+	{
+		"date": "10/08/2010",
+		"amountDue": 38777,
+		"amountPaid": 26371,
+		"unitsUsed": 230.2,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 68.43
+	},
+	{
+		"date": "09/08/2010",
+		"amountDue": 37913,
+		"amountPaid": 23481,
+		"unitsUsed": 229.8,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 64.99
+	},
+	{
+		"date": "08/11/2010",
+		"amountDue": 39320,
+		"amountPaid": 27186,
+		"unitsUsed": 238,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 65.22
+	},
+	{
+		"date": "07/14/2010",
+		"amountDue": 31579,
+		"amountPaid": 22112,
+		"unitsUsed": 191.7,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 64.75
+	},
+	{
+		"date": "06/15/2010",
+		"amountDue": 35062,
+		"amountPaid": 27325,
+		"unitsUsed": 209.2,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 67.64
+	},
+	{
+		"date": "05/16/2010",
+		"amountDue": 30488,
+		"amountPaid": 22180,
+		"unitsUsed": 185.4,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 64.41
+	},
+	{
+		"date": "04/16/2010",
+		"amountDue": 34710,
+		"amountPaid": 23032,
+		"unitsUsed": 228.7,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 51.75
+	},
+	{
+		"date": "03/18/2010",
+		"amountDue": 28761,
+		"amountPaid": 19682,
+		"unitsUsed": 187.7,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 53.24
+	},
+	{
+		"date": "02/16/2010",
+		"amountDue": 31911,
+		"amountPaid": 28589,
+		"unitsUsed": 206,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 54.89
+	},
+	{
+		"date": "01/17/2010",
+		"amountDue": 37453,
+		"amountPaid": 32609,
+		"unitsUsed": 223.5,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 67.6
+	},
+	{
+		"date": "12/18/2009",
+		"amountDue": 32136,
+		"amountPaid": 21063,
+		"unitsUsed": 190.4,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 68.76
+	},
+	{
+		"date": "11/20/2009",
+		"amountDue": 31217,
+		"amountPaid": 20340,
+		"unitsUsed": 190.2,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 64.15
+	},
+	{
+		"date": "10/21/2009",
+		"amountDue": 30715,
+		"amountPaid": 20182,
+		"unitsUsed": 185.7,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 65.39
+	},
+	{
+		"date": "09/21/2009",
+		"amountDue": 31526,
+		"amountPaid": 28124,
+		"unitsUsed": 186.9,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 68.68
+	},
+	{
+		"date": "08/23/2009",
+		"amountDue": 33335,
+		"amountPaid": 20194,
+		"unitsUsed": 219.6,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 51.81
+	},
+	{
+		"date": "07/26/2009",
+		"amountDue": 36082,
+		"amountPaid": 21999,
+		"unitsUsed": 220.8,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 63.41
+	},
+	{
+		"date": "06/27/2009",
+		"amountDue": 28644,
+		"amountPaid": 23863,
+		"unitsUsed": 180.9,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 58.36
+	},
+	{
+		"date": "05/28/2009",
+		"amountDue": 33880,
+		"amountPaid": 20382,
+		"unitsUsed": 208.7,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 62.34
+	},
+	{
+		"date": "04/30/2009",
+		"amountDue": 35992,
+		"amountPaid": 24563,
+		"unitsUsed": 230.3,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 56.31
+	},
+	{
+		"date": "04/02/2009",
+		"amountDue": 31812,
+		"amountPaid": 25328,
+		"unitsUsed": 190.5,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 67.02
+	},
+	{
+		"date": "03/04/2009",
+		"amountDue": 33773,
+		"amountPaid": 32379,
+		"unitsUsed": 224.8,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 50.22
+	},
+	{
+		"date": "02/04/2009",
+		"amountDue": 36796,
+		"amountPaid": 29444,
+		"unitsUsed": 221.3,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 66.26
+	},
+	{
+		"date": "01/07/2009",
+		"amountDue": 33086,
+		"amountPaid": 21750,
+		"unitsUsed": 196,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 68.77
+	},
+	{
+		"date": "12/08/2008",
+		"amountDue": 38358,
+		"amountPaid": 32022,
+		"unitsUsed": 239.5,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 60.15
+	},
+	{
+		"date": "11/10/2008",
+		"amountDue": 38936,
+		"amountPaid": 30604,
+		"unitsUsed": 235.5,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 65.34
+	},
+	{
+		"date": "10/13/2008",
+		"amountDue": 29036,
+		"amountPaid": 21196,
+		"unitsUsed": 188.3,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 54.18
+	},
+	{
+		"date": "09/14/2008",
+		"amountDue": 32446,
+		"amountPaid": 28516,
+		"unitsUsed": 214.9,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 50.96
+	},
+	{
+		"date": "08/15/2008",
+		"amountDue": 31018,
+		"amountPaid": 23164,
+		"unitsUsed": 184.2,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 68.41
+	},
+	{
+		"date": "07/16/2008",
+		"amountDue": 33629,
+		"amountPaid": 20414,
+		"unitsUsed": 218.5,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 53.92
+	},
+	{
+		"date": "06/18/2008",
+		"amountDue": 37387,
+		"amountPaid": 26471,
+		"unitsUsed": 226.5,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 65.06
+	},
+	{
+		"date": "05/21/2008",
+		"amountDue": 32870,
+		"amountPaid": 27056,
+		"unitsUsed": 200.1,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 64.29
+	},
+	{
+		"date": "04/21/2008",
+		"amountDue": 30336,
+		"amountPaid": 28187,
+		"unitsUsed": 195.4,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 55.23
+	},
+	{
+		"date": "03/22/2008",
+		"amountDue": 34084,
+		"amountPaid": 30069,
+		"unitsUsed": 218.7,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 55.87
+	},
+	{
+		"date": "02/22/2008",
+		"amountDue": 30889,
+		"amountPaid": 28240,
+		"unitsUsed": 203.2,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 52.03
+	},
+	{
+		"date": "01/24/2008",
+		"amountDue": 35654,
+		"amountPaid": 23826,
+		"unitsUsed": 223,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 59.9
+	},
+	{
+		"date": "12/27/2007",
+		"amountDue": 36443,
+		"amountPaid": 28834,
+		"unitsUsed": 231.7,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 57.27
+	},
+	{
+		"date": "11/28/2007",
+		"amountDue": 38590,
+		"amountPaid": 24945,
+		"unitsUsed": 230.6,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 67.37
+	},
+	{
+		"date": "10/31/2007",
+		"amountDue": 31379,
+		"amountPaid": 21954,
+		"unitsUsed": 193.9,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 61.85
+	},
+	{
+		"date": "10/02/2007",
+		"amountDue": 37136,
+		"amountPaid": 31104,
+		"unitsUsed": 225.5,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 64.66
+	},
+	{
+		"date": "09/02/2007",
+		"amountDue": 30237,
+		"amountPaid": 26535,
+		"unitsUsed": 181.7,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 66.41
+	},
+	{
+		"date": "08/04/2007",
+		"amountDue": 38746,
+		"amountPaid": 33627,
+		"unitsUsed": 228.8,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 69.31
+	},
+	{
+		"date": "07/06/2007",
+		"amountDue": 29603,
+		"amountPaid": 27143,
+		"unitsUsed": 184.8,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 60.2
+	},
+	{
+		"date": "06/07/2007",
+		"amountDue": 36215,
+		"amountPaid": 29852,
+		"unitsUsed": 234.3,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 54.58
+	},
+	{
+		"date": "05/08/2007",
+		"amountDue": 37823,
+		"amountPaid": 25937,
+		"unitsUsed": 225.8,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 67.47
+	},
+	{
+		"date": "04/09/2007",
+		"amountDue": 36125,
+		"amountPaid": 30987,
+		"unitsUsed": 234.2,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 54.26
+	},
+	{
+		"date": "03/10/2007",
+		"amountDue": 36657,
+		"amountPaid": 24729,
+		"unitsUsed": 224.2,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 63.52
+	},
+	{
+		"date": "02/08/2007",
+		"amountDue": 33927,
+		"amountPaid": 22489,
+		"unitsUsed": 212.6,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 59.57
+	},
+	{
+		"date": "01/09/2007",
+		"amountDue": 31549,
+		"amountPaid": 29349,
+		"unitsUsed": 193.2,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 63.32
+	},
+	{
+		"date": "12/11/2006",
+		"amountDue": 29135,
+		"amountPaid": 28662,
+		"unitsUsed": 185.2,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 57.34
+	},
+	{
+		"date": "11/13/2006",
+		"amountDue": 36440,
+		"amountPaid": 23098,
+		"unitsUsed": 218.5,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 66.77
+	},
+	{
+		"date": "10/15/2006",
+		"amountDue": 31123,
+		"amountPaid": 28473,
+		"unitsUsed": 190.1,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 63.73
+	},
+	{
+		"date": "09/17/2006",
+		"amountDue": 28526,
+		"amountPaid": 21353,
+		"unitsUsed": 189.4,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 50.6
+	},
+	{
+		"date": "08/18/2006",
+		"amountDue": 29907,
+		"amountPaid": 22503,
+		"unitsUsed": 183.8,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 62.71
+	},
+	{
+		"date": "07/19/2006",
+		"amountDue": 30858,
+		"amountPaid": 21954,
+		"unitsUsed": 187.1,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 64.9
+	},
+	{
+		"date": "06/19/2006",
+		"amountDue": 36044,
+		"amountPaid": 23884,
+		"unitsUsed": 225.2,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 60.03
+	},
+	{
+		"date": "05/21/2006",
+		"amountDue": 30836,
+		"amountPaid": 23470,
+		"unitsUsed": 193.1,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 59.72
+	},
+	{
+		"date": "04/22/2006",
+		"amountDue": 27746,
+		"amountPaid": 20935,
+		"unitsUsed": 182.6,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 51.96
+	},
+	{
+		"date": "03/25/2006",
+		"amountDue": 36408,
+		"amountPaid": 28410,
+		"unitsUsed": 233.1,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 56.22
+	},
+	{
+		"date": "02/24/2006",
+		"amountDue": 36368,
+		"amountPaid": 31384,
+		"unitsUsed": 215.6,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 68.69
+	},
+	{
+		"date": "01/27/2006",
+		"amountDue": 31156,
+		"amountPaid": 20268,
+		"unitsUsed": 195.9,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 59.05
+	},
+	{
+		"date": "12/29/2005",
+		"amountDue": 36366,
+		"amountPaid": 32043,
+		"unitsUsed": 217.5,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 67.17
+	},
+	{
+		"date": "11/30/2005",
+		"amountDue": 33066,
+		"amountPaid": 20774,
+		"unitsUsed": 215.9,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 53.15
+	},
+	{
+		"date": "10/31/2005",
+		"amountDue": 37019,
+		"amountPaid": 35712,
+		"unitsUsed": 229.9,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 61.02
+	},
+	{
+		"date": "10/03/2005",
+		"amountDue": 39087,
+		"amountPaid": 36093,
+		"unitsUsed": 234.7,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 66.53
+	},
+	{
+		"date": "09/05/2005",
+		"amountDue": 37376,
+		"amountPaid": 35125,
+		"unitsUsed": 224.4,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 66.54
+	},
+	{
+		"date": "08/06/2005",
+		"amountDue": 35028,
+		"amountPaid": 21962,
+		"unitsUsed": 215,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 62.94
+	},
+	{
+		"date": "07/08/2005",
+		"amountDue": 36687,
+		"amountPaid": 32816,
+		"unitsUsed": 235.6,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 55.74
+	},
+	{
+		"date": "06/08/2005",
+		"amountDue": 34485,
+		"amountPaid": 28155,
+		"unitsUsed": 227.2,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 51.79
+	},
+	{
+		"date": "05/11/2005",
+		"amountDue": 36888,
+		"amountPaid": 31821,
+		"unitsUsed": 226.4,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 62.93
+	},
+	{
+		"date": "04/12/2005",
+		"amountDue": 27947,
+		"amountPaid": 26704,
+		"unitsUsed": 180.5,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 54.85
+	},
+	{
+		"date": "03/13/2005",
+		"amountDue": 32817,
+		"amountPaid": 27289,
+		"unitsUsed": 201.1,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 63.18
+	},
+	{
+		"date": "02/13/2005",
+		"amountDue": 36976,
+		"amountPaid": 36307,
+		"unitsUsed": 218.8,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 68.96
+	},
+	{
+		"date": "01/15/2005",
+		"amountDue": 31970,
+		"amountPaid": 27258,
+		"unitsUsed": 212.1,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 50.7
+	},
+	{
+		"date": "12/18/2004",
+		"amountDue": 39286,
+		"amountPaid": 27126,
+		"unitsUsed": 232.3,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 69.13
+	},
+	{
+		"date": "11/19/2004",
+		"amountDue": 36242,
+		"amountPaid": 22640,
+		"unitsUsed": 219.8,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 64.9
+	},
+	{
+		"date": "10/22/2004",
+		"amountDue": 36686,
+		"amountPaid": 32749,
+		"unitsUsed": 237.3,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 54.62
+	},
+	{
+		"date": "09/22/2004",
+		"amountDue": 32772,
+		"amountPaid": 23316,
+		"unitsUsed": 201.2,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 62.85
+	},
+	{
+		"date": "08/25/2004",
+		"amountDue": 29110,
+		"amountPaid": 23163,
+		"unitsUsed": 190.8,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 52.53
+	},
+	{
+		"date": "07/28/2004",
+		"amountDue": 31026,
+		"amountPaid": 26224,
+		"unitsUsed": 184.3,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 68.33
+	},
+	{
+		"date": "06/28/2004",
+		"amountDue": 31520,
+		"amountPaid": 27223,
+		"unitsUsed": 196.2,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 60.63
+	},
+	{
+		"date": "05/29/2004",
+		"amountDue": 33038,
+		"amountPaid": 21294,
+		"unitsUsed": 200.8,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 64.51
+	},
+	{
+		"date": "04/30/2004",
+		"amountDue": 37070,
+		"amountPaid": 29290,
+		"unitsUsed": 228.4,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 62.34
+	},
+	{
+		"date": "04/02/2004",
+		"amountDue": 37496,
+		"amountPaid": 31338,
+		"unitsUsed": 231.9,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 61.66
+	},
+	{
+		"date": "03/05/2004",
+		"amountDue": 33064,
+		"amountPaid": 25161,
+		"unitsUsed": 208.5,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 58.58
+	},
+	{
+		"date": "02/05/2004",
+		"amountDue": 38211,
+		"amountPaid": 25789,
+		"unitsUsed": 227.8,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 67.76
+	},
+	{
+		"date": "01/06/2004",
+		"amountDue": 34329,
+		"amountPaid": 24840,
+		"unitsUsed": 221.8,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 54.79
+	},
+	{
+		"date": "12/08/2003",
+		"amountDue": 35883,
+		"amountPaid": 35015,
+		"unitsUsed": 231.6,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 54.97
+	},
+	{
+		"date": "11/09/2003",
+		"amountDue": 36878,
+		"amountPaid": 22498,
+		"unitsUsed": 231.7,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 59.18
+	},
+	{
+		"date": "10/11/2003",
+		"amountDue": 29730,
+		"amountPaid": 25993,
+		"unitsUsed": 180.8,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 64.41
+	},
+	{
+		"date": "09/11/2003",
+		"amountDue": 34511,
+		"amountPaid": 24618,
+		"unitsUsed": 211.3,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 63.3
+	},
+	{
+		"date": "08/14/2003",
+		"amountDue": 33441,
+		"amountPaid": 31985,
+		"unitsUsed": 218.5,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 53.03
+	},
+	{
+		"date": "07/15/2003",
+		"amountDue": 31279,
+		"amountPaid": 30872,
+		"unitsUsed": 197.7,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 58.19
+	},
+	{
+		"date": "06/17/2003",
+		"amountDue": 35665,
+		"amountPaid": 35309,
+		"unitsUsed": 214.3,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 66.44
+	},
+	{
+		"date": "05/19/2003",
+		"amountDue": 27824,
+		"amountPaid": 18329,
+		"unitsUsed": 183,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 52.08
+	},
+	{
+		"date": "04/21/2003",
+		"amountDue": 32488,
+		"amountPaid": 21985,
+		"unitsUsed": 209.7,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 54.9
+	},
+	{
+		"date": "03/23/2003",
+		"amountDue": 35660,
+		"amountPaid": 35105,
+		"unitsUsed": 210.3,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 69.56
+	},
+	{
+		"date": "02/21/2003",
+		"amountDue": 34948,
+		"amountPaid": 34427,
+		"unitsUsed": 209.8,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 66.59
+	},
+	{
+		"date": "01/23/2003",
+		"amountDue": 35381,
+		"amountPaid": 22832,
+		"unitsUsed": 215.5,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 64.18
+	},
+	{
+		"date": "12/26/2002",
+		"amountDue": 29413,
+		"amountPaid": 23288,
+		"unitsUsed": 190.6,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 54.32
+	},
+	{
+		"date": "11/27/2002",
+		"amountDue": 34726,
+		"amountPaid": 30393,
+		"unitsUsed": 208.9,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 66.24
+	},
+	{
+		"date": "10/30/2002",
+		"amountDue": 30085,
+		"amountPaid": 22344,
+		"unitsUsed": 193.9,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 55.19
+	},
+	{
+		"date": "10/02/2002",
+		"amountDue": 29659,
+		"amountPaid": 21774,
+		"unitsUsed": 181.4,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 63.46
+	},
+	{
+		"date": "09/02/2002",
+		"amountDue": 36431,
+		"amountPaid": 24758,
+		"unitsUsed": 230.2,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 58.26
+	},
+	{
+		"date": "08/03/2002",
+		"amountDue": 33605,
+		"amountPaid": 26109,
+		"unitsUsed": 202,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 66.34
+	},
+	{
+		"date": "07/05/2002",
+		"amountDue": 32237,
+		"amountPaid": 28296,
+		"unitsUsed": 191.2,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 68.62
+	},
+	{
+		"date": "06/05/2002",
+		"amountDue": 32336,
+		"amountPaid": 23936,
+		"unitsUsed": 210.1,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 53.91
+	},
+	{
+		"date": "05/07/2002",
+		"amountDue": 29346,
+		"amountPaid": 19696,
+		"unitsUsed": 182.3,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 60.96
+	},
+	{
+		"date": "04/09/2002",
+		"amountDue": 35154,
+		"amountPaid": 22718,
+		"unitsUsed": 211.7,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 66.08
+	},
+	{
+		"date": "03/11/2002",
+		"amountDue": 37281,
+		"amountPaid": 34984,
+		"unitsUsed": 225.2,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 65.56
+	},
+	{
+		"date": "02/11/2002",
+		"amountDue": 33403,
+		"amountPaid": 31928,
+		"unitsUsed": 205.6,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 62.48
+	},
+	{
+		"date": "01/13/2002",
+		"amountDue": 32198,
+		"amountPaid": 27181,
+		"unitsUsed": 199.8,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 61.12
+	},
+	{
+		"date": "12/16/2001",
+		"amountDue": 33520,
+		"amountPaid": 20400,
+		"unitsUsed": 208.2,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 61
+	},
+	{
+		"date": "11/18/2001",
+		"amountDue": 38055,
+		"amountPaid": 26305,
+		"unitsUsed": 229.7,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 65.64
+	},
+	{
+		"date": "10/19/2001",
+		"amountDue": 31635,
+		"amountPaid": 27611,
+		"unitsUsed": 209.4,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 51.11
+	},
+	{
+		"date": "09/19/2001",
+		"amountDue": 31895,
+		"amountPaid": 23368,
+		"unitsUsed": 205.7,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 55.05
+	},
+	{
+		"date": "08/22/2001",
+		"amountDue": 28675,
+		"amountPaid": 23982,
+		"unitsUsed": 190.5,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 50.49
+	},
+	{
+		"date": "07/25/2001",
+		"amountDue": 33506,
+		"amountPaid": 28134,
+		"unitsUsed": 208.4,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 60.81
+	},
+	{
+		"date": "06/25/2001",
+		"amountDue": 37252,
+		"amountPaid": 35480,
+		"unitsUsed": 225.2,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 65.43
+	},
+	{
+		"date": "05/26/2001",
+		"amountDue": 30037,
+		"amountPaid": 27283,
+		"unitsUsed": 199.7,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 50.39
+	},
+	{
+		"date": "04/28/2001",
+		"amountDue": 32608,
+		"amountPaid": 22391,
+		"unitsUsed": 203,
+		"numDays": 28,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 60.61
+	},
+	{
+		"date": "03/31/2001",
+		"amountDue": 36200,
+		"amountPaid": 29476,
+		"unitsUsed": 219.7,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 64.79
+	},
+	{
+		"date": "03/02/2001",
+		"amountDue": 30467,
+		"amountPaid": 29013,
+		"unitsUsed": 195,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 56.22
+	},
+	{
+		"date": "01/31/2001",
+		"amountDue": 38195,
+		"amountPaid": 38106,
+		"unitsUsed": 230.2,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 65.96
+	},
+	{
+		"date": "01/02/2001",
+		"amountDue": 30276,
+		"amountPaid": 27738,
+		"unitsUsed": 195,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 55.28
+	},
+	{
+		"date": "12/05/2000",
+		"amountDue": 37944,
+		"amountPaid": 30000,
+		"unitsUsed": 227.7,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 66.63
+	},
+	{
+		"date": "11/06/2000",
+		"amountDue": 35900,
+		"amountPaid": 32951,
+		"unitsUsed": 218.5,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 64.29
+	},
+	{
+		"date": "10/07/2000",
+		"amountDue": 31026,
+		"amountPaid": 24921,
+		"unitsUsed": 201,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 54.37
+	},
+	{
+		"date": "09/08/2000",
+		"amountDue": 37817,
+		"amountPaid": 35746,
+		"unitsUsed": 224.7,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 68.27
+	},
+	{
+		"date": "08/11/2000",
+		"amountDue": 40260,
+		"amountPaid": 35460,
+		"unitsUsed": 237.2,
+		"numDays": 28,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 69.7
+	},
+	{
+		"date": "07/13/2000",
+		"amountDue": 34403,
+		"amountPaid": 30499,
+		"unitsUsed": 212.9,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 61.59
+	},
+	{
+		"date": "06/13/2000",
+		"amountDue": 31142,
+		"amountPaid": 28157,
+		"unitsUsed": 191.7,
+		"numDays": 30,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 62.42
+	},
+	{
+		"date": "05/14/2000",
+		"amountDue": 36910,
+		"amountPaid": 26073,
+		"unitsUsed": 220.4,
+		"numDays": 30,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 67.48
+	},
+	{
+		"date": "04/15/2000",
+		"amountDue": 31555,
+		"amountPaid": 23942,
+		"unitsUsed": 194.5,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 62.2
+	},
+	{
+		"date": "03/17/2000",
+		"amountDue": 36588,
+		"amountPaid": 25180,
+		"unitsUsed": 220.8,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 65.71
+	},
+	{
+		"date": "02/17/2000",
+		"amountDue": 30859,
+		"amountPaid": 22262,
+		"unitsUsed": 186.1,
+		"numDays": 29,
+		"paymentMethod": "Cash",
+		"fuelSurchargeRate": 65.86
+	},
+	{
+		"date": "01/19/2000",
+		"amountDue": 35599,
+		"amountPaid": 31789,
+		"unitsUsed": 230,
+		"numDays": 29,
+		"paymentMethod": "Debit",
+		"fuelSurchargeRate": 54.8
+	}
+]
