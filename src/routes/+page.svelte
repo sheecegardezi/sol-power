@@ -18,7 +18,9 @@
 	<Section title="November 2023 Billing Period" grid>
 		<!-- ---------------->
 		<HighlightCard title="Balance Due">
-			<p class="text-5xl font-semibold sm:text-6xl md:text-4xl xl:text-5xl">$342.00</p>
+			<p class="text-5xl font-semibold sm:text-6xl md:text-[32px] lg:text-[44px] xl:text-5xl">
+				$342.00
+			</p>
 			<div class="flex items-end justify-between">
 				<p>View details</p>
 				<Button class="class flex gap-x-1 rounded-full bg-primary text-primary-foreground">
@@ -30,7 +32,7 @@
 		<!-- ---------------->
 		<HighlightCard title="Energy Usage" class="-z-10 sm:z-0">
 			<div class="relative flex gap-x-1">
-				<p class="text-5xl font-semibold md:text-4xl xl:text-5xl">
+				<p class="text-5xl font-semibold md:text-[32px] lg:text-[44px] xl:text-5xl">
 					214<span class="ml-1.5 text-2xl text-muted-foreground md:text-xl lg:text-2xl">kWh</span>
 				</p>
 				<div class="flex h-fit items-center text-green-400">
