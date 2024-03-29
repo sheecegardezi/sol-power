@@ -11,13 +11,13 @@
 
 <a
 	href={item.route}
-	class="flex h-10 w-full min-w-10 items-center justify-center gap-x-1.5 rounded-md transition-all lg:justify-normal lg:px-3 xl:gap-x-3 {isRoute
-		? 'bg-secondary text-secondary-foreground'
+	class="flex h-10 w-full min-w-10 items-center justify-center gap-x-1.5 rounded-md transition-all md:h-12 lg:h-10 lg:justify-normal lg:px-3 xl:gap-x-3 {isRoute
+		? 'bg-zinc-900 text-zinc-100 dark:bg-zinc-800 dark:text-zinc-200'
 		: 'hover:bg-muted'}"
 	class:pointer-events-none={isRoute}
 >
 	<div class="relative">
-		<svelte:component this={item.icon} strokeWidth={1.2} size={21} />
+		<svelte:component this={item.icon} strokeWidth={1.5} size={21} />
 		{#if showNotification}
 			<div class="absolute right-0 top-0 ml-1 h-2.5 w-2.5 rounded-full border bg-red-500" />
 		{/if}
