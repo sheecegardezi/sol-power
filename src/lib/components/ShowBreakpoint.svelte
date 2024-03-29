@@ -1,5 +1,5 @@
 <div
-	class="absolute right-3 top-3 rounded-2xl bg-primary p-3 font-bold uppercase text-accent-foreground"
+	class="absolute right-3 top-3 rounded-2xl bg-purple-500 p-3 font-bold uppercase text-primary-foreground"
 >
 	<span class="sm:hidden">base</span>
 	<span class="hidden sm:block md:hidden">sm</span>
