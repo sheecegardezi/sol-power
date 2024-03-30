@@ -1,7 +1,7 @@
 <script lang="ts">
 	//components
 	import * as Avatar from '$lib/components/ui/avatar';
-	import Exit from 'svelte-radix/Exit.svelte';
+	import LogOut from 'lucide-svelte/icons/log-out';
 	import ModeToggle from '../ModeToggle/ModeToggle.svelte';
 	import { Separator } from '$lib/components/ui/separator';
 	//types
@@ -35,7 +35,7 @@
 			type="submit"
 			class="flex w-full select-none items-center gap-x-2 rounded-md px-2 py-3 text-base text-destructive outline-none transition-colors hover:bg-muted data-[disabled]:pointer-events-none data-[highlighted]:bg-accent data-[highlighted]:text-accent-foreground data-[disabled]:opacity-50"
 		>
-			<Exit size={20} />
+			<LogOut class="h-5 w-5" />
 			<span class="hidden lg:block">Logout</span>
 		</button>
 	</form>

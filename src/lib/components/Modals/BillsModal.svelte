@@ -1,6 +1,7 @@
 <script lang="ts">
 	import * as Dialog from '$lib/components/ui/dialog/index.js';
-	import { Ellipsis } from 'lucide-svelte';
+	import { format, parse } from 'date-fns';
+	import Ellipsis from 'lucide-svelte/icons/ellipsis';
 
 	interface Bill {
 		date: string;
@@ -12,6 +13,14 @@
 	}
 
 	export let bill: Bill;
+
+	function formatDate(dateString: string) {
+		// Parse the date string into a Date object
+		const date = parse(dateString, 'MM/dd/yyyy', new Date());
+		// Format the date object into the desired format
+		const formattedDate = format(date, 'MMMM yyyy');
+		return formattedDate;
+	}
 </script>
 
 <Dialog.Root>
@@ -22,7 +31,7 @@
 	</Dialog.Trigger>
 	<Dialog.Content>
 		<Dialog.Header>
-			<Dialog.Title>Are you sure absolutely sure?</Dialog.Title>
+			<Dialog.Title>Bill Breakdown - {formatDate(bill.date)}</Dialog.Title>
 			<Dialog.Description>
 				This action cannot be undone. This will permanently delete your account and remove your data
 				from our servers.

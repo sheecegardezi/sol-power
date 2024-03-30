@@ -1,5 +1,7 @@
 <script lang="ts">
-	import { Wallet, CircleGauge, Zap } from 'lucide-svelte';
+	import Wallet from 'lucide-svelte/icons/wallet';
+	import CircleGauge from 'lucide-svelte/icons/circle-gauge';
+	import Zap from 'lucide-svelte/icons/zap';
 
 	export let title: 'Balance Due' | 'Energy Usage' | 'Meter Information';
 </script>
