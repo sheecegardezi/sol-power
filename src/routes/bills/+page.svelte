@@ -53,8 +53,8 @@
 			{#each paginatedBills as bill (bill.date)}
 				<Table.Row>
 					<Table.Cell class="font-semibold">{bill.date}</Table.Cell>
-					<Table.Cell class="text-right">${bill.amountDue / 100}</Table.Cell>
-					<Table.Cell class="text-right">${bill.amountPaid / 100}</Table.Cell>
+					<Table.Cell class="text-right">${(bill.amountDue / 100).toFixed(2)}</Table.Cell>
+					<Table.Cell class="text-right">${(bill.amountPaid / 100).toFixed(2)}</Table.Cell>
 					<Table.Cell class="text-right">{bill.unitsUsed}</Table.Cell>
 					<Table.Cell class="text-right">{bill.numDays}</Table.Cell>
 					<Table.Cell class="text-right">{bill.paymentMethod}</Table.Cell>
@@ -109,7 +109,7 @@
 		</Pagination.Content>
 
 		<p class="text-center text-[13px] text-muted-foreground">
-			Showing bills <strong>{range.start || 1} - {range.end}</strong> of your recent bills
+			Showing <strong>{range.start || 1} - {range.end}</strong> of your recent bills
 		</p>
 	</Pagination.Root>
 </div>
