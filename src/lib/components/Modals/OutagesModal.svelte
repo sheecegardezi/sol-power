@@ -28,7 +28,7 @@
 	}
 </script>
 
-<Dialog.Root open={true}>
+<Dialog.Root>
 	<Dialog.Trigger
 		class="rounded-md px-2 py-1 transition-colors hover:bg-accent hover:text-accent-foreground"
 	>
@@ -64,7 +64,9 @@
 				<Badge class="w-fit" variant={outage.status}>{outage.status}</Badge>
 				<p>
 					<span class="hidden sm:inline">Report emegencies at</span>
-					<a class="text-accent-foreground underline" href="tel:+1-784-000-0000">(784)-000-0000 </a>
+					<a class="text-accent-foreground underline underline-offset-2" href="tel:+1-784-000-0000"
+						>(784)-000-0000
+					</a>
 				</p>
 			</Dialog.Description>
 		</Dialog.Footer>
