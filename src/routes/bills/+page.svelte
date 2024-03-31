@@ -67,7 +67,7 @@
 	</Table.Root>
 
 	<Pagination.Root {count} {perPage} {siblingCount} let:pages let:range>
-		<Pagination.Content>
+		<Pagination.Content class="mb-2">
 			<Pagination.Item>
 				<Pagination.PrevButton
 					disabled={currentPage === 1}
