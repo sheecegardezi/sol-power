@@ -1,0 +1,26 @@
+[
+	{
+		"type": "Emergency",
+		"date": "02/17/2024",
+		"start": "4:05 AM",
+		"end": null,
+		"areas": ["Calliaqua", "Prospect", "Diamond", "Stubbs", "Calder"],
+		"status": "ongoing"
+	},
+	{
+		"type": "Maintenance",
+		"date": "02/17/2024",
+		"start": "4:05 AM",
+		"end": "7:12 PM",
+		"areas": ["Biabou", "Colonaire", "Georgetown", "Cedars", "Byera"],
+		"status": "upcoming"
+	},
+	{
+		"type": "Emergency",
+		"date": "02/17/2024",
+		"start": "4:05 AM",
+		"end": "7:12 PM",
+		"areas": ["Chateubelair", "Layou", "Barroullie", "Buccament", "Troumaca", "Spring Village"],
+		"status": "resolved"
+	}
+]
