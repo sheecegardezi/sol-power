@@ -3,6 +3,7 @@
 	import { format, parse } from 'date-fns';
 	import Ellipsis from 'lucide-svelte/icons/ellipsis';
 	import CalcRow from '../Bill/CalcRow.svelte';
+	import Separator from '../ui/separator/separator.svelte';
 
 	interface Bill {
 		date: string;
@@ -52,24 +53,27 @@
 			<Dialog.Description>See how your charges were calculated!</Dialog.Description>
 		</Dialog.Header>
 
+		<!-- <Separator /> -->
 		<div class="flex w-full flex-col gap-2">
-			<h2 class="font-semibold text-muted-foreground">Current fees</h2>
-			<CalcRow label="Energy usage" result={energyFees}
-				>{unitsUsed.toFixed(1)} kWh x ${rate}</CalcRow
-			>
-			<CalcRow label="VAT" result={vatRes}>{vatAmt.toFixed(1)} kWh x {vatRate}</CalcRow>
-			<CalcRow label="Fuel Surcharge" result={fuelSurcharge}>
-				{unitsUsed.toFixed(1)} kWh x ${fRate}
+			<!-- <h2 class="font-semibold text-muted-foreground">Current fees</h2> -->
+			<CalcRow label="Energy Cost" description="Units used (kWh) * rate" result={energyFees}>
+				{unitsUsed.toFixed(1)} x ${rate}
 			</CalcRow>
-			<CalcRow label="Total Energy Cost" result={vatRes + energyFees + fuelSurcharge} highlight />
+			<CalcRow label="VAT" description="16% over 150kWh" result={vatRes}>
+				{vatAmt.toFixed(1)} x ${rate} x {vatRate}
+			</CalcRow>
+			<CalcRow label="Fuel Surcharge" description="Units used (kWh) * rate" result={fuelSurcharge}>
+				{unitsUsed.toFixed(1)} x ${fRate}
+			</CalcRow>
 			<CalcRow
 				label="Balance Brought Forward"
 				result={amountDue - (vatRes + energyFees + fuelSurcharge)}
 				highlight
 			/>
 		</div>
+		<Separator />
 
-		<Dialog.Footer class="mt-2 border-t pt-4">
+		<Dialog.Footer>
 			<span>Amount due: </span><strong>${amountDue.toFixed(2)}</strong>
 		</Dialog.Footer>
 	</Dialog.Content>
