@@ -10,12 +10,12 @@
 	import LineChart from '$lib/components/Chart/LineChart.svelte';
 
 	export let data: PageData;
-	const { loginForm, signupForm, user } = data;
+	const { user } = data;
 </script>
 
 {#if user}
 	<Header title="Overview" />
-	<Section title="November 2023 Billing Period" grid>
+	<Section grid>
 		<!-- ---------------->
 		<HighlightCard title="Balance Due">
 			<p class="text-5xl font-semibold sm:text-6xl md:text-[32px] lg:text-[44px] xl:text-5xl">
