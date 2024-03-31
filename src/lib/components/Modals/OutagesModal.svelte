@@ -43,7 +43,7 @@
 		<div class="flex justify-between gap-6 text-sm text-muted-foreground">
 			<div class="flex items-center gap-x-1">
 				<Clock size="16" />
-				<span>{outage.start} - {outage.end}</span>
+				<span>{outage.start} - {outage.end ?? 'TBA'}</span>
 			</div>
 
 			<div class="flex items-center gap-x-1">

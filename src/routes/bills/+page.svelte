@@ -2,7 +2,6 @@
 	import Header from '$lib/components/Typography/Header.svelte';
 	import * as Table from '$lib/components/ui/table';
 	import * as Pagination from '$lib/components/ui/pagination/index.js';
-	import * as Dialog from '$lib/components/ui/dialog/index.js';
 
 	import { ChevronLeft, ChevronRight } from 'lucide-svelte';
 	import { mediaQuery } from 'svelte-legos';
@@ -87,7 +86,7 @@
 					<Pagination.Item>
 						<Pagination.Link
 							class="transition-all {currentPage == page.value
-								? 'border-none bg-primary text-primary-foreground transition-colors hover:bg-primary'
+								? 'border-none bg-primary text-primary-foreground transition-colors hover:bg-primary hover:text-primary-foreground'
 								: ''}"
 							{page}
 							isActive={currentPage == page.value}
