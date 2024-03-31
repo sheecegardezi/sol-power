@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Wallet from 'lucide-svelte/icons/wallet';
+	import CreditCard from 'lucide-svelte/icons/credit-card';
 	import CircleGauge from 'lucide-svelte/icons/circle-gauge';
 	import Zap from 'lucide-svelte/icons/zap';
 
@@ -22,7 +22,7 @@
 		class:sm:opacity-100={title === 'Energy Usage'}
 	>
 		{#if title === 'Balance Due'}
-			<Wallet size="22" strokeWidth="1.4" />
+			<CreditCard size="22" strokeWidth="1.4" />
 		{:else if title === 'Energy Usage'}
 			<Zap size="22" strokeWidth="1.4" />
 		{:else if title === 'Meter Information'}
