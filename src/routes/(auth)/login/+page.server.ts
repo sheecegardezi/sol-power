@@ -3,24 +3,22 @@ import type { Actions, PageServerLoad } from './$types';
 // lucia auth
 import { lucia } from '$lib/server/luciaAuth';
 import { redirect } from '@sveltejs/kit';
-import { Argon2id } from 'oslo/password';
 // database
 import { loginSchema } from '$lib/validation/authSchema';
 // superforms
 import { message, setError, superValidate } from 'sveltekit-superforms';
 import { zod } from 'sveltekit-superforms/adapters';
 import { checkIfUserExists } from '$lib/server/dbUtils';
+import { Scrypt } from 'lucia';
 
 // If signed in user visits Login page, redirect them to home
 export const load: PageServerLoad = async (event) => {
 	const user = event.locals.user;
 
-	// if user is already logged in & verified, redirect them to home
 	if (user && user.isEmailVerified) {
 		redirect(302, '/');
 	}
 
-	// if user is already logged in & not verified, redirect them to email verification
 	if (user && !user.isEmailVerified) {
 		redirect(302, '/email-verification');
 	}
@@ -32,10 +30,7 @@ export const load: PageServerLoad = async (event) => {
 
 export const actions: Actions = {
 	default: async (event) => {
-		// Get form data and validate it
 		const form = await superValidate(event, zod(loginSchema));
-
-		// If form data is invalid, return error message
 		if (!form.valid) {
 			return message(form, {
 				status: 'error',
@@ -43,10 +38,7 @@ export const actions: Actions = {
 			});
 		}
 
-		// Check for existing user with email
 		const existingUser = await checkIfUserExists(form.data.email);
-
-		// Handle non-existent email to avoid revealing valid emails
 		if (!existingUser) {
 			return setError(
 				form,
@@ -58,7 +50,7 @@ export const actions: Actions = {
 		let isPasswordValid = false;
 
 		if (existingUser.authMethods.includes('email') && existingUser.password) {
-			isPasswordValid = await new Argon2id().verify(existingUser.password, form.data.password);
+			isPasswordValid = await new Scrypt().verify(existingUser.password, form.data.password);
 		} else {
 			return message(
 				form,
@@ -66,11 +58,7 @@ export const actions: Actions = {
 					status: 'error',
 					text: 'Invalid email or password. Please double-check your credentials and try again.'
 				},
-				{
-					status: 403
-					// This status code indicates that the server understood the request,
-					// but it refuses to authorize it because the user registered with OAuth
-				}
+				{ status: 403 }
 			);
 		}
 
@@ -83,7 +71,6 @@ export const actions: Actions = {
 			);
 		}
 
-		// Create Lucia session and set session cookie for authenticated user
 		const session = await lucia.createSession(existingUser.id, {});
 		const sessionCookie = lucia.createSessionCookie(session.id);
 		event.cookies.set(sessionCookie.name, sessionCookie.value, {
@@ -91,7 +78,6 @@ export const actions: Actions = {
 			...sessionCookie.attributes
 		});
 
-		// Redirect user to protected route
 		redirect(302, '/');
 	}
 };

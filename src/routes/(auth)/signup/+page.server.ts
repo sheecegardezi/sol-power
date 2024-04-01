@@ -1,7 +1,6 @@
 // lucia auth
 import { lucia } from '$lib/server/luciaAuth';
-import { generateId } from 'lucia';
-import { Argon2id } from 'oslo/password';
+import { generateId, Scrypt } from 'lucia';
 // superforms
 import { message, superValidate } from 'sveltekit-superforms';
 import { zod } from 'sveltekit-superforms/adapters';
@@ -35,10 +34,7 @@ export const load: PageServerLoad = async (event) => {
 
 export const actions: Actions = {
 	default: async ({ request, cookies }) => {
-		// Get form data and validate it
 		const form = await superValidate(request, zod(signupSchema));
-
-		// If form data is invalid, return error message
 		if (!form.valid) {
 			return message(form, {
 				status: 'error',
@@ -47,12 +43,8 @@ export const actions: Actions = {
 		}
 
 		try {
-			// Extract user email from form data
 			const userEmail = form.data.email;
-			// Check if user already exists
 			const existingUser = await checkIfUserExists(userEmail);
-
-			// If user exists and uses email auth, return error
 			if (existingUser) {
 				return message(form, {
 					status: 'error',
@@ -60,14 +52,10 @@ export const actions: Actions = {
 				});
 			}
 
-			// Generate or retrieve user ID
 			const userId = generateId(15);
 
-			// Hash the user's password
-			const hashedPassword = await new Argon2id().hash(form.data.password);
+			const hashedPassword = await new Scrypt().hash(form.data.password);
 
-			// Create or update user based on existence
-			// if (!existingUser) {
 			await createUser({
 				id: userId,
 				name: form.data.name,
@@ -85,16 +73,11 @@ export const actions: Actions = {
 			// 		.where(eq(userTable.email, userEmail));
 			// }
 
-			// Generate email verification code
 			const emailVerificationCode = await generateVerificationCode(userId, userEmail);
-
-			// Send verification code to user's email
 			const sendVerificationCodeResult = await sendVerificationCode(
 				userEmail,
 				emailVerificationCode
 			);
-
-			// If sending verification code fails, return error
 			if (!sendVerificationCodeResult.result) {
 				return message(form, {
 					status: 'error',
@@ -110,8 +93,8 @@ export const actions: Actions = {
 				...sessionCookie.attributes
 			});
 
-			// Redirect user to home page after successful signup
-			// Note: Redirect is handled in the load function
+			redirect(302, '/email-verification');
+			// this redirect should run before the load functions'
 		} catch (error) {
 			// Return error message if an error occurs during processing
 			return message(form, {
