@@ -26,15 +26,10 @@ export const load: PageServerLoad = async (event) => {
 
 export const actions: Actions = {
 	verifyCode: async (event) => {
-		// Retrieve user from event locals
 		const user = event.locals.user;
-		// If user is not logged in, redirect to signup page
 		if (!user) redirect(302, '/signup');
 
-		// Get form data and validate it
 		const form = await superValidate(event, zod(emailVerificationCodeSchema));
-
-		// If form data is invalid, return error message
 		if (!form.valid) {
 			return message(form, {
 				status: 'error',
@@ -42,27 +37,19 @@ export const actions: Actions = {
 			});
 		}
 
-		// Check if rate limit for sending new code is exceeded
-		const rateLimitResult = await verifyCodeRateLimiter.check(event);
-
-		// If rate limit exceeded, return error message with rate limit information
-		if (rateLimitResult.limited) {
+		const rateLimitStatus = await verifyCodeRateLimiter.check(event);
+		if (rateLimitStatus.limited) {
 			return message(
 				form,
 				{
 					status: 'error',
-					text: `You have made too many requests and exceeded the rate limit. Please try again after ${rateLimitResult.retryAfter} seconds.`
+					text: `You have made too many requests and exceeded the rate limit. Please try again after ${rateLimitStatus.retryAfter} seconds.`
 				},
-				{
-					status: 429
-				}
+				{ status: 429 }
 			);
 		}
 
-		// Check if verification code is valid
 		const isCodeValid = await verifyVerificationCode(user.id, form.data.verificationCode);
-
-		// If verification code is invalid, return error message
 		if (isCodeValid.result === false) {
 			return message(form, {
 				status: 'error',
@@ -72,20 +59,16 @@ export const actions: Actions = {
 
 		// Update user's email verification status and auth methods
 		await db.transaction(async (trx) => {
-			// Retrieve user from database
 			const [existingUser] = await trx
 				.select()
 				.from(userTable)
 				.where(eq(userTable.email, user.email));
 
-			// Update user's auth methods to include email
-			const authMethods = existingUser?.authMethods ?? [];
-			authMethods.push('email');
+			const updatedAuthMethods = [...(existingUser?.authMethods ?? []), 'email'];
 
-			// Update user's email verification status and auth methods
 			await trx
 				.update(userTable)
-				.set({ isEmailVerified: true, authMethods })
+				.set({ isEmailVerified: true, authMethods: updatedAuthMethods })
 				.where(eq(userTable.email, user.email));
 		});
 
@@ -94,31 +77,19 @@ export const actions: Actions = {
 	},
 
 	sendNewCode: async ({ locals }) => {
-		// Retrieve user from locals
 		const user = locals.user;
-
-		// If user is not logged in, redirect to signup page
 		if (!user) return redirect(302, '/signup');
 
-		// Generate email verification code
-		const emailVerificationCode = await generateVerificationCode(user.id, user.email);
+		const generatedCode = await generateVerificationCode(user.id, user.email);
+		const sendCodeResult = await sendVerificationCode(user.email, generatedCode);
 
-		// Send verification code to user's email
-		const sendVerificationCodeResult = await sendVerificationCode(
-			user.email,
-			emailVerificationCode
-		);
-
-		// If sending verification code fails, return error message
-		if (!sendVerificationCodeResult.result) {
-			return fail(500, {
-				message: sendVerificationCodeResult.message
-			});
+		if (!sendCodeResult.result) {
+			return fail(500, { message: sendCodeResult.message });
 		}
 
 		// Return success message
 		return {
-			message: sendVerificationCodeResult.message
+			message: sendCodeResult.message
 		};
 	}
 };
