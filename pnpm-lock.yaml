@@ -88,6 +88,9 @@ devDependencies:
   '@sveltejs/adapter-cloudflare':
     specifier: ^4.2.0
     version: 4.2.0(@sveltejs/kit@2.5.5)(wrangler@3.41.0)
+  '@sveltejs/adapter-netlify':
+    specifier: ^4.1.0
+    version: 4.1.0(@sveltejs/kit@2.5.5)
   '@sveltejs/kit':
     specifier: ^2.5.5
     version: 2.5.5(@sveltejs/vite-plugin-svelte@3.0.2)(svelte@4.2.12)(vite@5.2.7)
@@ -1216,6 +1219,10 @@ packages:
     resolution: {integrity: sha512-6EwiSjwWYP7pTckG6I5eyFANjPhmPjUX9JRLUSfNPC7FX7zK9gyZAfUEaECL6ALTpGX5AjnBq3C9XmVWPitNpw==}
     dev: true
 
+  /@iarna/toml@2.2.5:
+    resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
+    dev: true
+
   /@internationalized/date@3.5.2:
     resolution: {integrity: sha512-vo1yOMUt2hzp63IutEaTUxROdvQg1qlMRsbCvbay2AK2Gai7wIgCyK5weEX3nHkiLgo4qCXHijFNC/ILhlRpOQ==}
     dependencies:
@@ -2256,6 +2263,17 @@ packages:
       esbuild: 0.19.12
       worktop: 0.8.0-next.18
       wrangler: 3.41.0
+    dev: true
+
+  /@sveltejs/adapter-netlify@4.1.0(@sveltejs/kit@2.5.5):
+    resolution: {integrity: sha512-TGv14O/9xumJv/q9G57ZCzl+LUWHZ9dDleugT5QQD87zJE3Y98AKyU5Z7c7WlBTjKYKEQEeOxjnSdOpMRuhd6g==}
+    peerDependencies:
+      '@sveltejs/kit': ^2.4.0
+    dependencies:
+      '@iarna/toml': 2.2.5
+      '@sveltejs/kit': 2.5.5(@sveltejs/vite-plugin-svelte@3.0.2)(svelte@4.2.12)(vite@5.2.7)
+      esbuild: 0.19.12
+      set-cookie-parser: 2.6.0
     dev: true
 
   /@sveltejs/kit@2.5.5(@sveltejs/vite-plugin-svelte@3.0.2)(svelte@4.2.12)(vite@5.2.7):

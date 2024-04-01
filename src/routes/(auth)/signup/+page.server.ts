@@ -1,7 +1,7 @@
 // lucia auth
 import { lucia } from '$lib/server/luciaAuth';
 import { generateId } from 'lucia';
-import { Scrypt } from 'lucia';
+import { Argon2id } from 'oslo/password';
 // superforms
 import { message, superValidate } from 'sveltekit-superforms';
 import { zod } from 'sveltekit-superforms/adapters';
@@ -64,7 +64,7 @@ export const actions: Actions = {
 			const userId = generateId(15);
 
 			// Hash the user's password
-			const hashedPassword = await new Scrypt().hash(form.data.password);
+			const hashedPassword = await new Argon2id().hash(form.data.password);
 
 			// Create or update user based on existence
 			// if (!existingUser) {

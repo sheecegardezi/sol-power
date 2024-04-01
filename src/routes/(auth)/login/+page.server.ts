@@ -3,7 +3,7 @@ import type { Actions, PageServerLoad } from './$types';
 // lucia auth
 import { lucia } from '$lib/server/luciaAuth';
 import { redirect } from '@sveltejs/kit';
-import { Scrypt } from 'lucia';
+import { Argon2id } from 'oslo/password';
 // database
 import { loginSchema } from '$lib/validation/authSchema';
 // superforms
@@ -58,8 +58,7 @@ export const actions: Actions = {
 		let isPasswordValid = false;
 
 		if (existingUser.authMethods.includes('email') && existingUser.password) {
-			// isPasswordValid = await new Argon2id().verify(existingUser.password, form.data.password);
-			isPasswordValid = await new Scrypt().verify(existingUser.password, form.data.password);
+			isPasswordValid = await new Argon2id().verify(existingUser.password, form.data.password);
 		} else {
 			return message(
 				form,
