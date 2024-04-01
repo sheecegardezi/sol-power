@@ -32,9 +32,6 @@ dependencies:
   date-fns:
     specifier: ^3.6.0
     version: 3.6.0
-  dotenv:
-    specifier: ^16.4.5
-    version: 16.4.5
   drizzle-orm:
     specifier: ^0.30.6
     version: 0.30.6(@libsql/client@0.5.6)(react@18.2.0)
@@ -3124,11 +3121,6 @@ packages:
       dom-serializer: 2.0.0
       domelementtype: 2.3.0
       domhandler: 5.0.3
-    dev: false
-
-  /dotenv@16.4.5:
-    resolution: {integrity: sha512-ZmdL2rui+eB2YwhsWzjInR8LldtZHGDoQ1ugH85ppHKwpUHL7j7rN0Ti9NCnGiQbhaZ11FpR+7ao1dNsmduNUg==}
-    engines: {node: '>=12'}
     dev: false
 
   /dreamopt@0.8.0:
