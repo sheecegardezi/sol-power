@@ -1,0 +1,4 @@
+name = "sol-power"
+account_id = "809fa9914a5460c29106ac3abf228434"
+
+compatibility_flags = [ "nodejs_compat" ]
