@@ -1,5 +1,0 @@
-# Top-level configuration
-name = "my-worker"
-main = "src/index.js"
-
-compatibility_flags = [ "nodejs_compat" ]
