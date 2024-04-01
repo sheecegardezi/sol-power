@@ -10,6 +10,7 @@ import { db } from '$lib/server/db';
 import { userTable } from '$lib/server/schema';
 import {
 	generateVerificationCode,
+	sendCodeRateLimiter,
 	sendVerificationCode,
 	verifyCodeRateLimiter,
 	verifyVerificationCode
@@ -76,8 +77,15 @@ export const actions: Actions = {
 		redirect(302, '/');
 	},
 
-	sendNewCode: async ({ locals }) => {
-		const user = locals.user;
+	sendNewCode: async (event) => {
+		const rateLimitStatus = await sendCodeRateLimiter.check(event);
+		if (rateLimitStatus.limited) {
+			return fail(429, {
+				message: `You have made too many requests and exceeded the rate limit. Please try again after ${rateLimitStatus.retryAfter} seconds.`
+			});
+		}
+
+		const user = event.locals.user;
 		if (!user) return redirect(302, '/signup');
 
 		const generatedCode = await generateVerificationCode(user.id, user.email);
