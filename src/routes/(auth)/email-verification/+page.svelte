@@ -5,6 +5,6 @@
 	export let data: PageData;
 </script>
 
-<div class="flex h-screen items-center justify-center">
+<div class="flex h-svh items-center justify-center">
 	<EmailVerificationForm data={data.form} showBadge showContainer />
 </div>
