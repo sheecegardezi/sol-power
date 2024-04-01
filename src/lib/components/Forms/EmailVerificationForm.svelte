@@ -27,6 +27,8 @@
 	const form = superForm(data, {
 		validators: zodClient(emailVerificationCodeSchema),
 		resetForm: false,
+		delayMs: 2000,
+		timeoutMs: 8000,
 		taintedMessage: null,
 		onUpdated: () => {
 			if (!$message) return;
