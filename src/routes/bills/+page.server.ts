@@ -8,6 +8,10 @@ export const load = (async ({ locals }) => {
 		redirect(302, '/login');
 	}
 
+	if (locals.user && !locals.user.isEmailVerified) {
+		redirect(302, '/email-verification');
+	}
+
 	return {
 		bills: JSON.parse(JSON.stringify(bills))
 	};
