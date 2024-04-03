@@ -11,14 +11,14 @@ import { createDate, isWithinExpirationDate } from 'oslo';
 // import { EMAIL_VERIFICATION_CODE_LENGTH } from '$lib/validation/authSchema';
 import { RetryAfterRateLimiter } from 'sveltekit-rate-limiter/server';
 // resend
-import { RESEND_API_KEY } from '$env/static/private';
-import { Resend } from 'resend';
+// import { RESEND_API_KEY } from '$env/static/private';
+// import { Resend } from 'resend';
 
-const resend = new Resend(RESEND_API_KEY);
+// const resend = new Resend(RESEND_API_KEY);
 
-export const GITHUB_OAUTH_STATE_COOKIE_NAME = 'githubOauthState';
-export const GOOGLE_OAUTH_STATE_COOKIE_NAME = 'googleOauthState';
-export const GOOGLE_OAUTH_CODE_VERIFIER_COOKIE_NAME = 'googleOauthCodeVerifier';
+// export const GITHUB_OAUTH_STATE_COOKIE_NAME = 'githubOauthState';
+// export const GOOGLE_OAUTH_STATE_COOKIE_NAME = 'googleOauthState';
+// export const GOOGLE_OAUTH_CODE_VERIFIER_COOKIE_NAME = 'googleOauthCodeVerifier';
 
 // Creates and sets session
 export const createSession = async (lucia: Lucia, userId: string, cookies: Cookies) => {
@@ -34,7 +34,6 @@ export const createSession = async (lucia: Lucia, userId: string, cookies: Cooki
 // deletes session cookie
 export const deleteSession = async (lucia: Lucia, cookies: Cookies) => {
 	const sessionCookie = lucia.createBlankSessionCookie();
-
 	cookies.set(sessionCookie.name, sessionCookie.value, {
 		path: '.',
 		...sessionCookie.attributes
@@ -64,17 +63,18 @@ export const generateVerificationCode = async (userId: string, email: string) =>
 };
 
 export const sendVerificationCode = async (email: string, code: string) => {
-	const { error } = await resend.emails.send({
-		from: 'Lucia starter <onboarding@resend.dev>',
-		to: [email],
-		subject: 'Email Verification Code',
-		html: `<p>Your email verification code is: <strong>${code}</strong></p>`
-	});
-
-	if (error) {
-		console.error({ error });
-		return { result: false, message: 'Failed to send email verification code.' };
-	}
+	console.log("resend emailed:", code)
+	// const { error } = await resend.emails.send({
+	// 	from: 'Lucia starter <onboarding@resend.dev>',
+	// 	to: [email],
+	// 	subject: 'Email Verification Code',
+	// 	html: `<p>Your email verification code is: <strong>${code}</strong></p>`
+	// });
+	//
+	// if (error) {
+	// 	console.error({ error });
+	// 	return { result: false, message: 'Failed to send email verification code.' };
+	// }
 
 	return { result: true, message: 'Email verification code sent successfully.' };
 };
