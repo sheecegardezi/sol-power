@@ -9,7 +9,7 @@ import { loginSchema } from '$lib/validation/authSchema';
 import { message, setError, superValidate } from 'sveltekit-superforms';
 import { zod } from 'sveltekit-superforms/adapters';
 import { checkIfUserExists } from '$lib/server/dbUtils';
-import { Scrypt } from 'lucia';
+import { generateArgon2idHash } from '$lib/server/noblehash';
 
 // If signed in user visits Login page, redirect them to home
 export const load: PageServerLoad = async (event) => {
@@ -50,7 +50,8 @@ export const actions: Actions = {
 		let isPasswordValid = false;
 
 		if (existingUser.authMethods.includes('email') && existingUser.password) {
-			isPasswordValid = await new Scrypt().verify(existingUser.password, form.data.password);
+			const hashedPassword = await generateArgon2idHash(form.data.password);
+			isPasswordValid = hashedPassword === existingUser.password;
 		} else {
 			return message(
 				form,

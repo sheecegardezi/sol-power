@@ -1,6 +1,6 @@
 // lucia auth
 import { lucia } from '$lib/server/luciaAuth';
-import { generateId, Scrypt } from 'lucia';
+import { generateArgon2idHash } from '$lib/server/noblehash';
 // superforms
 import { message, superValidate } from 'sveltekit-superforms';
 import { zod } from 'sveltekit-superforms/adapters';
@@ -11,6 +11,7 @@ import type { Actions, PageServerLoad } from './$types';
 import { signupSchema } from '$lib/validation/authSchema';
 import { checkIfUserExists, createUser } from '$lib/server/dbUtils';
 import { generateVerificationCode, sendVerificationCode } from '$lib/server/luciaAuthUtils';
+import { generateId } from 'lucia';
 // import { eq } from 'drizzle-orm';
 // import { db } from '$lib/server/db';
 // import { userTable } from '$lib/server/schema';
@@ -54,7 +55,7 @@ export const actions: Actions = {
 
 			const userId = generateId(15);
 
-			const hashedPassword = await new Scrypt().hash(form.data.password);
+			const hashedPassword = await generateArgon2idHash(form.data.password);
 
 			await createUser({
 				id: userId,
