@@ -11,7 +11,7 @@ import type { Actions, PageServerLoad } from './$types';
 import { signupSchema } from '$lib/validation/authSchema';
 import { checkIfUserExists, createUser } from '$lib/server/dbUtils';
 import { generateVerificationCode, sendVerificationCode } from '$lib/server/luciaAuthUtils';
-import { generateId } from 'lucia';
+// import { generateId } from 'lucia';
 // import { eq } from 'drizzle-orm';
 // import { db } from '$lib/server/db';
 // import { userTable } from '$lib/server/schema';
@@ -53,7 +53,7 @@ export const actions: Actions = {
 				});
 			}
 
-			const userId = generateId(15);
+			const userId = crypto.randomUUID().split('-').join('');
 
 			const hashedPassword = await generateArgon2idHash(form.data.password);
 

@@ -7,8 +7,8 @@ import { emailVerificationCodesTable } from './schema';
 //auth
 import { TimeSpan, type Lucia } from 'lucia';
 import { createDate, isWithinExpirationDate } from 'oslo';
-import { alphabet, generateRandomString } from 'oslo/crypto';
-import { EMAIL_VERIFICATION_CODE_LENGTH } from '$lib/validation/authSchema';
+// import { alphabet, generateRandomString } from 'oslo/crypto';
+// import { EMAIL_VERIFICATION_CODE_LENGTH } from '$lib/validation/authSchema';
 import { RetryAfterRateLimiter } from 'sveltekit-rate-limiter/server';
 // resend
 import { RESEND_API_KEY } from '$env/static/private';
@@ -42,7 +42,7 @@ export const deleteSession = async (lucia: Lucia, cookies: Cookies) => {
 };
 
 export const generateVerificationCode = async (userId: string, email: string) => {
-	const code = generateRandomString(EMAIL_VERIFICATION_CODE_LENGTH, alphabet('0-9'));
+	const code = crypto.randomUUID().split('-').join('');
 
 	// This transaction block ensures atomicity and data integrity. If an error occurs while inserting the new code, the transaction will be rolled back, preventing the deletion of old verification codes. This maintains the state of the db.
 	await db.transaction(async (trx) => {
